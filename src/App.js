@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
 
 import ContentBlock from "./components/ContentBlock";
 import Image from "./components/Image";
 import Profile from "./components/Profile";
+import Header from "./components/Header";
 
 import { progress, profiles } from "./config";
 
@@ -24,7 +24,7 @@ const ProgressList = ({ content }) => {
           imageLeft = !imageLeft;
           return (
             <li className='container's>
-              <ContentBlock content={item.img} />
+              <ContentBlock content={item.content} />
               <Image data={item.img} />
             </li>
           );
@@ -49,6 +49,7 @@ function App() {
   console.log(progress);
   return (
     <div className="lg-container">
+      <Header />
       <ProgressList content={progress} />
       <ProfileList team={profiles} />
     </div>
