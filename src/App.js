@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 
 import ContentBlock from "./components/ContentBlock";
 import Image from "./components/Image";
