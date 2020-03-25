@@ -1,14 +1,31 @@
 import React from "react";
 
-const ContentBlock = ({content}) => {
-    console.log(content)
+const NumberBlock = ({content, i}) => {
   return (
-    <div class="sm-container">
-      <h2>{content.title}</h2>
-      {content.subtitle && <h4>{content.subtitle}</h4>}
+    <li>
+      <h1>{i+1}</h1>
+      <h6>{content.title}</h6>
       <p>{content.text}</p>
-    </div>
-  );
+    </li>
+  )
+}
+
+const IconBlock = ({content}) => {
+  return (
+    <li>
+      <img />
+      <h5>{content.title}</h5>
+      <p>{content.text}</p>
+    </li>
+  )
+}
+
+const ContentBlock = ({content, i}) => {
+  if(content.icon){
+    return <IconBlock content={content} />
+  } else {
+    return <NumberBlock content={content} i={i} />
+  }
 };
 
 export default ContentBlock;
