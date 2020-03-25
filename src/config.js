@@ -14,6 +14,7 @@ export const profiles = [
 ];
 
 // Dit kan echt op 20 verschillende manieren worden gestyled. Ligt eraan hoeveel info we willen meegeven.
+// Denk dat het wellicht handig is om naar Tuckman's model te kijken
 export const progress = [
   {
     content: {
