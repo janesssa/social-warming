@@ -12,11 +12,9 @@ function App() {
     <div className="lg-container">
       <Header />
       <Team profiles={profiles} />
-      <Section content={progress.designTactics} />
-      <Section content={progress.research} />
-      <Section content={progress.insights} />
-      <Section content={progress.designCriteria} />
-      <Section content={progress.concepts} />
+      {Object.keys(progress).map(section => (
+        <Section content={progress[section]} />
+      ))}
     </div>
   );
 }

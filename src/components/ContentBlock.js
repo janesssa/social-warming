@@ -1,22 +1,36 @@
 import React from "react";
 
-const NumberBlock = ({content, i}) => {
+import Image from "./Image"
+
+// TODO: Dit block kan gestyled worden, dit is een block zoals bij Ontwerp Technieken gebruikt wordt in de wireframes
+
+const NumberBlock = ({data, i}) => {
+  const content = data.content
   return (
-    <li>
+    <div>
       <h1>{i+1}</h1>
       <h6>{content.title}</h6>
       <p>{content.text}</p>
-    </li>
+      {content.img && (
+        <Image data={content.img} />
+      )}
+    </div>
   )
 }
 
+// TODO: Dit block kan gestyled worden, dit is een block zoals bij Onderzoek en Inzichten gebruikt wordt in de wireframes
+// Let op!: Als er nog geen foto/icon toegevoegd is moet je dit even weglaten, anders krijg je errors in je code
+
 const IconBlock = ({content}) => {
   return (
-    <li>
-      <img />
+    <div>
+      <Image data={content.icon} />
       <h5>{content.title}</h5>
       <p>{content.text}</p>
-    </li>
+      {content.img && (
+        <Image data={content.img} />
+      )}
+    </div>
   )
 }
 
@@ -24,7 +38,7 @@ const ContentBlock = ({content, i}) => {
   if(content.icon){
     return <IconBlock content={content} />
   } else {
-    return <NumberBlock content={content} i={i} />
+    return <NumberBlock data={content} i={i} />
   }
 };
 

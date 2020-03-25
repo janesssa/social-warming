@@ -1,28 +1,32 @@
 export const profiles = {
-  cmgt: [{
-    name: "Janessa Labeur",
-    title: "Prototype",
-    img: {
-      src: "./profiles/janessa.png",
-      width: "50px"
+  cmgt: [
+    {
+      name: "Janessa Labeur",
+      title: "Prototype",
+      img: {
+        src: "./profiles/janessa.png",
+        width: "50px"
+      }
+    },
+    {
+      name: "Rachelle Bosman",
+      title: "Design",
+      img: {
+        src: "./profiles/janessa.png",
+        width: "50px"
+      }
     }
-  },
-  {
-    name: "Rachelle Bosman",
-    title: "Design",
-    img: {
-      src: "./profiles/janessa.png",
-      width: "50px"
+  ],
+  cmd: [
+    {
+      name: "Coen",
+      title: "design",
+      img: {
+        src: "./profiles/janessa.png",
+        width: "50px"
+      }
     }
-  }],
-  cmd: [{
-    name: "Coen",
-    title: "design",
-    img: {
-      src: "./profiles/janessa.png",
-      width: "50px"
-    }
-  }]
+  ]
 };
 
 // Dit kan echt op 20 verschillende manieren worden gestyled. Ligt eraan hoeveel info we willen meegeven.
@@ -48,11 +52,10 @@ export const profiles = {
 //   ]
 // }
 
-
 export const progress = {
-  designTactics :{
-    title: 'Ontwerp technieken',
-    intro: 'Onderstaande technieken hebben we gebruikt om te ontwerpen.',
+  designTactics: {
+    title: "Ontwerp technieken",
+    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
     contentBlocks: [
       {
         content: {
@@ -70,60 +73,84 @@ export const progress = {
       }
     ]
   },
-  research :{
-    content: {
-      title: "Eerste taak",
-      subtitle: "Optioneel?",
-      text: "Dit is de eerste taak die uitgevoerd is. Top!"
-    },
-    icon: {
-      src: "./hiermoeteenurlkomen",
-      width: "200px",
-      height: "200px",
-      alt: "Dit is een plaatje",
-      className: "lg-img w-bg"
-    }
+  research: {
+    title: "Ontwerp technieken",
+    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    contentBlocks: [
+      {
+        content: {
+          title: "Eerste taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de eerste taak die uitgevoerd is. Top!"
+        }
+      },
+      {
+        content: {
+          title: "Tweede taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de tweede taak die uitgevoerd is. Top!"
+        }
+      }
+    ]
   },
-  insights :{
-    content: {
-      title: "Eerste taak",
-      subtitle: "Optioneel?",
-      text: "Dit is de eerste taak die uitgevoerd is. Top!"
-    },
-    icon: {
-      src: "./hiermoeteenurlkomen",
-      width: "200px",
-      height: "200px",
-      alt: "Dit is een plaatje",
-      className: "lg-img w-bg"
-    }
+  insights: {
+    title: "Ontwerp technieken",
+    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    contentBlocks: [
+      {
+        content: {
+          title: "Eerste taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de eerste taak die uitgevoerd is. Top!"
+        }
+      },
+      {
+        content: {
+          title: "Tweede taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de tweede taak die uitgevoerd is. Top!"
+        }
+      }
+    ]
   },
-  designCriteria :{
-    content: {
-      title: "Eerste taak",
-      subtitle: "Optioneel?",
-      text: "Dit is de eerste taak die uitgevoerd is. Top!"
-    },
-    icon: {
-      src: "./hiermoeteenurlkomen",
-      width: "200px",
-      height: "200px",
-      alt: "Dit is een plaatje",
-      className: "lg-img w-bg"
-    }
+  designCriteria: {
+    title: "Ontwerp technieken",
+    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    contentBlocks: [
+      {
+        content: {
+          title: "Eerste taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de eerste taak die uitgevoerd is. Top!"
+        }
+      },
+      {
+        content: {
+          title: "Tweede taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de tweede taak die uitgevoerd is. Top!"
+        }
+      }
+    ]
   },
-  concepts :{
-    content: {
-      title: "Eerste taak",
-      subtitle: "Optioneel?",
-      text: "Dit is de eerste taak die uitgevoerd is. Top!"
-    },
-    icon: {
-      src: "./hiermoeteenurlkomen",
-      width: "200px",
-      height: "200px",
-      alt: "Dit is een plaatje",
-      className: "lg-img w-bg"
-    }
-  },
+  concepts: {
+    title: "Ontwerp technieken",
+    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    contentBlocks: [
+      {
+        content: {
+          title: "Eerste taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de eerste taak die uitgevoerd is. Top!"
+        }
+      },
+      {
+        content: {
+          title: "Tweede taak",
+          subtitle: "Optioneel?",
+          text: "Dit is de tweede taak die uitgevoerd is. Top!"
+        }
+      }
+    ]
+  }
 };
