@@ -71,7 +71,7 @@ export const progress = {
           subtitle: "Optioneel?",
           text: "Mindmapping is een creatieve techniek die helpt bij het leggen van connecties bij een onderwerp. In de mindmap staat een onderwerp centraal. Dit onderwerp breed je uit met verschillende takken, deze takken zijn woorden die je associeert bij het onderwerp. Deze takken worden nu het onderwerp van de volgende vertakkingen. Zo heb je uiteindelijk een heel web met begrippen sommige hiervan hebben met het hoofdonderwerp te maken en sommige ook niet. Wij hebben deze methode gebruikt omdat het een overzicht van het onderwerp geeft en alle onderdelen hier erbij hoorden. En tijdens het maken van de mindmapping kom je er achter als groep waar je nog dieper op in moet gaan.",
           img: {
-            src: "./img/mindmapping",
+            src: "./img/mindmapping.png",
             alt: "foto van mindmap"
           }
         }
@@ -132,19 +132,37 @@ export const progress = {
     firstTitle: "Onderzoek",
     secondTitle: "& research",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    bgColor: "white",
     contentBlocks: [
       {
         content: {
-          title: "Eerste taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de eerste taak die uitgevoerd is. Top!"
+          title: "Doelgroep",
+          icon: {
+            src: "./img/icons/person.svg",
+            alt: "icon van een persoon",
+          },
+          text: "Onze gebruikers zijn het de mensen die naar het festival gaan. Wij richten ons op de mensen die online gebruik maken van forms, accounts en andere services waar je je data bij weg geeft."
         }
       },
       {
         content: {
-          title: "Tweede taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de tweede taak die uitgevoerd is. Top!"
+          title: "Stakeholders",
+          icon: {
+            src: "./img/icons/group.svg",
+            alt: "icon van een groep",
+          },
+          text: "De stakeholders van dit project zijn : Provincie Zuid-holland, databrokers en nonprofits die strijden voor data regels"
+        }
+      },
+      {
+        content: {
+          title: "Deskresearch",
+          icon: {
+            src: "./img/icons/search.svg",
+            alt: "icon van een vergrootglas",
+          },
+          text: "Aan de hand van de mindmapping hebben we deskresearch gedaan. We hebben de 5 takken van vrijheid zijn de 5 hoofdonderwerpen van onze deskresearch geworden. Met het deskresearch zijn we dieper op deze onderwerpen gekomen. En wat deze onderwerpen betekenen. De ondervindingen vanuit het onderzoek hebben we gedeeld met elkaar en aan de hand hiervan hebben we een overzicht met al onze insights gemaakt die we uit het deskresearch hebben gehaald. De insights die we hier uit hebben gehaald zijn :",
+          list: ["De route die data aflegt is ontransparant", "De waarden van data is variable", "De gebruiker is niet bewust van de schade die data kan opleveren"]
         }
       }
     ]
