@@ -7,8 +7,9 @@ import ContentBlock from './ContentBlock'
 // ContentBlocks
 
 const Section = ({content}) => {
+    const className = `container ${content.bgColor}`
     return (
-        <div>
+        <div className={className}>
             <h2>{content.title}</h2>
             <p>{content.intro}</p>
             {content.contentBlocks.map((block, i) => (
