@@ -187,15 +187,45 @@ export const progress = {
     contentBlocks: [
       {
         content: {
-          list: [
+          text: [
             "Het product moet interactie met de gebruiker mogelijk maken.",
-            "Het product moet een combinatie zijn van fysiek en digitaal.", 
-            "Het product moet 'ervaren' kunnen worden.", 
-            "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.", 
-            "Het product moet bewustwording creëren met betrekking tot het thema 'social cooling', en de impact van de door de gebruiker ingevoerde data weergeven.",
-            "De waarde van data, en de route die de data aflegt moet weerspiegeld worden in het product.",
           ]
         }
+      },
+      {
+        content: {
+          text: [
+            "Het product moet een combinatie zijn van fysiek en digitaal.", 
+          ]
+        },
+      },
+      {
+        content: {
+          text: [
+            "Het product moet 'ervaren' kunnen worden.", 
+          ]
+        }
+      },
+      {
+        content: {
+          text: [
+            "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.", 
+          ]
+        },
+      },
+      {
+        content: {
+          text: [
+            "Het product moet bewustwording creëren met betrekking tot het thema 'social cooling', en de impact van de door de gebruiker ingevoerde data weergeven.",
+          ]
+        },
+      },
+      {
+        content: {
+          text: [
+            "De waarde van data, en de route die de data aflegt moet weerspiegeld worden in het product.",
+          ]
+        },
       },
     ]
   },
