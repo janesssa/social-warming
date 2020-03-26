@@ -28,6 +28,7 @@ body, html, .lg-container {
   margin: 0;
 }
 
+// Container around whole App
 .lg-container {
   display: flex;
   flex-direction: column;
@@ -35,6 +36,7 @@ body, html, .lg-container {
   list-style: none;
 }
 
+// Container around whole Section
 .container {
   width: 100%;
   padding: 0 200px;
@@ -76,6 +78,7 @@ body, html, .lg-container {
   text-transform: uppercase;
 }
 
+// Background classes for Sections
 .white {
   background-color: $white;
   color: $black;
@@ -91,6 +94,7 @@ body, html, .lg-container {
   color: $white;
 }
 
+// Title of Section
 .title {
   margin-left: 20%;
   text-transform: uppercase;
@@ -112,7 +116,20 @@ body, html, .lg-container {
 
 }
 
-.text{
+// Title of ContentBlocks
+.sm-title {
+  flex: 1;
+  max-width: 130px;
+}
+
+// Subtitle of ContentBlocks
+.subtitle {
+  margin: 0;
+  font-weight: normal;
+}
+
+// Text at Header
+.promo{
   margin-top: -36px;
   margin-left: 20%;
   color: $lightPink;
@@ -125,17 +142,34 @@ body, html, .lg-container {
   flex: 1;
 }
 
+// Number from ContentBlocks
 .number {
   font-weight: 900;
   font-size: 80px;
+  margin: 0;
+}
+
+// Context from ContenBlocks
 }
 
 .context {
   flex: 2;
 }
 
+// Reusable bold class
 .bold {
   font-style: bold;
+}
+
+// Reusable center class
+.center {
+  text-align: center;
+}
+
+// Intro from Sections 
+.intro {
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 // Title at Team section
