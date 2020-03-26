@@ -1,8 +1,7 @@
 import React from "react";
-
-import Team from "./components/Team";
-import Section from "./components/Section"
 import Header from "./components/Header";
+import Section from "./components/Section";
+import Team from "./components/Team";
 
 import { progress, profiles } from "./config";
 
@@ -10,8 +9,8 @@ function App() {
   console.log(progress);
   return (
     <div className="lg-container">
-      <Header />
-     
+     <div class="container"> <Header /> </div> 
+
       {Object.keys(progress).map(section => (
         <Section content={progress[section]} />
       ))}

@@ -3,7 +3,10 @@ import React from 'react'
 const Header = () => {
     return (
         <div className='header'>
-            <div class="titel"> 
+
+
+            <div class="title"> 
+
                 <h1 class="firstTitle">Social</h1>
                 <h2 class="secondTitle">Warming</h2>
             </div>

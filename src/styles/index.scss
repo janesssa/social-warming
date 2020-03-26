@@ -21,7 +21,6 @@ body, html, .lg-container {
 .lg-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
   overflow-x: hidden;
   list-style: none;
 }
@@ -45,9 +44,31 @@ body, html, .lg-container {
 
 }
 
-.titel {
+.title {
   margin-left: 20%;
   text-transform: uppercase;
+
+}
+
+.white {
+  background-color: $white;
+  color: $black;
+}
+
+.black {
+  background-color: $black;
+  color: $white;
+}
+
+.red {
+  background-color: $red;
+  color: $white;
+}
+
+.title {
+  margin-left: 20%;
+  text-transform: uppercase;
+ 
 
   .firstTitle{
     font-style: italic;
@@ -74,9 +95,4 @@ body, html, .lg-container {
   width: 400px;
 }
 
-// ----- ONTWERP TECHNIEKEN ----- 
 
-.designTech{
-  background-color: black; 
-  color: white;
-}
