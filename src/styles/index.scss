@@ -95,11 +95,13 @@ body, html, .lg-container {
 // Title of ContentBlocks
 .sm-title {
   flex: 1;
+  max-width: 130px;
 }
 
 // Subtitle of ContentBlocks
 .subtitle {
   margin: 0;
+  font-weight: normal;
 }
 
 // Text at Header
@@ -129,7 +131,13 @@ body, html, .lg-container {
   font-style: bold;
 }
 
+// Reusable center class
+.center {
+  text-align: center;
+}
+
 // Intro from Sections 
 .intro {
-  
+  margin: 0 auto;
+  max-width: 600px;
 }

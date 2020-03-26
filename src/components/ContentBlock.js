@@ -9,8 +9,8 @@ const NumberBlock = ({data, i}) => {
   return (
     <div class='sm-container'>
       <span className='sm-title'>
-        <h1 className='number'>{i+1}</h1>
-        <h6 className='subtitle'>{content.title}</h6>
+        <h1 className='number'>0{i+1}</h1>
+        <h5 className='subtitle center'>{content.title}</h5>
       </span>
       <span className='context'>
         <p>{content.text}</p>
