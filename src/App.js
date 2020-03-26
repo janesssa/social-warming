@@ -10,11 +10,13 @@ function App() {
   console.log(progress);
   return (
     <div className="lg-container">
-      <Header />
-      <Team profiles={profiles} />
+     <div class="container"> <Header /> </div> 
+   
       {Object.keys(progress).map(section => (
         <Section content={progress[section]} />
       ))}
+
+      <Team profiles={profiles} />
     </div>
   );
 }
