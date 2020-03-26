@@ -28,6 +28,26 @@ body, html, .lg-container {
   margin: 0;
 }
 
+// Reusable bold class
+.bold {
+  font-style: bold;
+}
+
+// Reusable center class
+.center {
+  text-align: center;
+}
+
+// Reusable Link class
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: $mainColor;
+}
+
+
 // Container around whole App
 .lg-container {
   display: flex;
@@ -42,18 +62,21 @@ body, html, .lg-container {
   padding: 0 200px;
 }
 
+// Container around ContentBlock
 .sm-container {
   width: 600px;
   display: flex;
   padding: 20px;
 }
 
+// Container around Profile details
 .xs-container {
   width: 200px;
   display: flex;
   flex-direction: column;
 }
 
+// Container around header
 .header {
   width: 100%;
   height: 100vh;
@@ -71,11 +94,6 @@ body, html, .lg-container {
     padding: 10px 15px;
   }
 
-}
-
-.title {
-  margin-left: 20%;
-  text-transform: uppercase;
 }
 
 // Background classes for Sections
@@ -98,7 +116,6 @@ body, html, .lg-container {
 .title {
   margin-left: 20%;
   text-transform: uppercase;
- 
 
   .firstTitle{
     font-style: italic;
@@ -138,6 +155,7 @@ body, html, .lg-container {
   width: 400px;
 }
 
+// Title of ContentBlocks 
 .sm-title {
   flex: 1;
 }
@@ -150,20 +168,8 @@ body, html, .lg-container {
 }
 
 // Context from ContenBlocks
-}
-
 .context {
   flex: 2;
-}
-
-// Reusable bold class
-.bold {
-  font-style: bold;
-}
-
-// Reusable center class
-.center {
-  text-align: center;
 }
 
 // Intro from Sections 
@@ -189,13 +195,4 @@ body, html, .lg-container {
 .profileCard {
   display: flex;
   max-width: 300px;
-}
-
-// Reusable Link class
-.link {
-  cursor: pointer;
-}
-
-.link:hover {
-  color: $mainColor;
 }
