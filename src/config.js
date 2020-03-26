@@ -76,29 +76,9 @@ export const progress = {
     ]
   },
   research: {
-    title: "Ontwerp technieken",
+    firstTitle: "Onderzoek",
+    secondTitle: "& research",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
-    contentBlocks: [
-      {
-        content: {
-          title: "Eerste taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de eerste taak die uitgevoerd is. Top!"
-        }
-      },
-      {
-        content: {
-          title: "Tweede taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de tweede taak die uitgevoerd is. Top!"
-        }
-      }
-    ]
-  },
-  insights: {
-    title: "Ontwerp technieken",
-    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
-    bgColor: "white",
     contentBlocks: [
       {
         content: {
@@ -117,7 +97,8 @@ export const progress = {
     ]
   },
   designCriteria: {
-    title: "Ontwerp technieken",
+    firstTitle: "Ontwerp",
+    secondTitle: "Criteria",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
     bgColor: "red",
     contentBlocks: [
@@ -138,7 +119,8 @@ export const progress = {
     ]
   },
   concepts: {
-    title: "Ontwerp technieken",
+    firstTitle: "3",
+    secondTitle: "Concepten",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
     bgColor: "white",
     contentBlocks: [
