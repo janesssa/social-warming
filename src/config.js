@@ -7,6 +7,7 @@ export const profiles = {
       detailTwo: "Detail numero twee",
       img: {
         src: "./profiles/janessa.png",
+        alt: "Avatar van Janessa",
         width: "50px"
       }
     },
