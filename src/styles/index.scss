@@ -30,3 +30,16 @@ body, html, .lg-container {
   background-color: $mainColor;
   padding: 50px;
 }
+
+.container {
+  width: 600px;
+  display: flex;
+}
+
+.sm-title {
+  flex: 1;
+}
+
+.context {
+  flex: 2;
+}
