@@ -9,7 +9,7 @@ function App() {
   console.log(progress);
   return (
     <div className="lg-container">
-     <div class="container"> <Header /> </div> 
+      <Header /> 
 
       {Object.keys(progress).map(section => (
         <Section content={progress[section]} />

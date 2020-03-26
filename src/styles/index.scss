@@ -18,6 +18,16 @@ body, html, .lg-container {
   top: 0;
 }
 
+// Reusable class to center object
+.m0auto {
+  margin: 0 auto;
+}
+
+// Reusable class to set margin to 0
+.m0 {
+  margin: 0;
+}
+
 // Container around whole App
 .lg-container {
   display: flex;
@@ -28,6 +38,23 @@ body, html, .lg-container {
 
 // Container around whole Section
 .container {
+  width: 100%;
+  padding: 0 200px;
+}
+
+.sm-container {
+  width: 600px;
+  display: flex;
+  padding: 20px;
+}
+
+.xs-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
   width: 100%;
   height: 100vh;
   background-color: $mainColor;
@@ -46,12 +73,9 @@ body, html, .lg-container {
 
 }
 
-// Container around whole ContentBlock
-.sm-container {
-  width: 600px;
-  display: flex;
-  padding: 20px;
-  margin: 0 auto;
+.title {
+  margin-left: 20%;
+  text-transform: uppercase;
 }
 
 // Background classes for Sections
@@ -114,6 +138,10 @@ body, html, .lg-container {
   width: 400px;
 }
 
+.sm-title {
+  flex: 1;
+}
+
 // Number from ContentBlocks
 .number {
   font-weight: 900;
@@ -122,6 +150,8 @@ body, html, .lg-container {
 }
 
 // Context from ContenBlocks
+}
+
 .context {
   flex: 2;
 }
@@ -140,4 +170,32 @@ body, html, .lg-container {
 .intro {
   margin: 0 auto;
   max-width: 600px;
+}
+
+// Title at Team section
+.study {
+  color: $lightGrey;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+// Detail at profiles
+.detail {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+// Card for Team section
+.profileCard {
+  display: flex;
+  max-width: 300px;
+}
+
+// Reusable Link class
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: $mainColor;
 }

@@ -7,10 +7,10 @@ import Image from "./Image"
 const NumberBlock = ({data, i}) => {
   const content = data.content
   return (
-    <div class='sm-container'>
+    <div class='sm-container m0auto'>
       <span className='sm-title'>
-        <h1 className='number'>0{i+1}</h1>
-        <h5 className='subtitle center'>{content.title}</h5>
+        <h1 className='number m0'>{i+1}</h1>
+        <h6 className='m0 center'>{content.title}</h6>
       </span>
       <span className='context'>
         <p>{content.text}</p>
@@ -27,7 +27,7 @@ const NumberBlock = ({data, i}) => {
 
 const IconBlock = ({content}) => {
   return (
-    <div class='sm-container'>
+    <div class='sm-container m0auto'>
       <span className="sm-title">
         <Image data={content.icon} />
       </span>
