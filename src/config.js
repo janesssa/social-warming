@@ -79,7 +79,6 @@ export const progress = {
       {
         content: {
           title: "Forced perspective",
-          subtitle: "Optioneel?",
           text: "Bij deze techniek ga je op zoek naar de onderliggende onderwerpen van een thema. Per thema schrijf je woorden op die bij je opkomen als je aan het thema denkt, zoveel mogelijk en zo snel mogelijk. Als dit voor alle thema’s is gedaan stem je per thema op de woorden die jij het best vindt. Zo eindige je per thema met een woord. Met deze woorden ga je concepten bedenken. Wij hebben als team deze techniek gebruikt omdat het ons werd aangeraden. En het forceert je om anders naar het onderwerp te kijken en je moet creatieve denken om deze woorden samen te brengen in een concept.",
           imgs: [
             {
@@ -100,14 +99,12 @@ export const progress = {
       {
         content: {
           title: "3 x 3 x 3",
-          subtitle: "Optioneel?",
           text: "Een 3 x 3 x 3 is bedoeld om concepten te genereren, aan het einde van de sessie heb je per persoon 3 concepten. Per concept krijg je 3 minuten om deze te bedenken. Na 3 keer 3 minuten presenteer je de concepten en beoordeeld je deze.. Wij hebben deze techniek gebruikt omdat het je geforceerd om na te denken en concepent te maken. "
         }
       },
       {
         content: {
           title: "COCD box",
-          subtitle: "Optioneel?",
           text: "De COCD box wordt gebruikt voor het beoordelen van concepten. Je maakt een kruis en zet 4 waarden aan elke kant van de lijnen. Als de waarden op dezelfde lijn liggen zijn het tegenovergestelde van elkaar. Per concept beoordeeld je waar deze hoort binnen de box. En aan de hand hiervan kan je de waarden van een concept achterhalen. Hiermee kan je makkelijker de beslissing maken met welke concepten je verder wilt gaan. WIj hebben deze techniek gebruikt om de concepten van de 3 x 3 x 3 sessie te beoordelen.",
           img: {
             src: "./img/COCD-box",
@@ -118,7 +115,6 @@ export const progress = {
       {
         content: {
           title: "Sketchboarding",
-          subtitle: "Optioneel?",
           text: "Sketchboarding is een techniek die helpt bij het visualiseren van concepten. In plaats van tekst ga je je concept visueel maken. Met tekening laat je de flow zien van het concept. Dit zorgt ervoor dat het concept duidelijker. Wij hebben deze techniek gebruikt om onze concepten beter aan elkaar te kunnen presenteren. En op elkaars concepten te kunnen bouwen zodat we een definitieve sketch per concept konden maken.",
           img: {
             src: "./img/sketchboarding",
