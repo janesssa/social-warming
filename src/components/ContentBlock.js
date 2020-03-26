@@ -7,7 +7,7 @@ import Image from "./Image"
 const NumberBlock = ({data, i}) => {
   const content = data.content
   return (
-    <div class='container'>
+    <div class='sm-container'>
       <span className='sm-title'>
         <h1 className='number'>{i+1}</h1>
         <h6 className='subtitle'>{content.title}</h6>
