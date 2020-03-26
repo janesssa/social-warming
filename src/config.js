@@ -184,23 +184,55 @@ export const progress = {
     ]
   },
   concepts: {
-    firstTitle: "3",
+    firstTitle: "Drie",
     secondTitle: "Concepten",
-    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    intro: "Aan de hand van de insights hebben we een forced fitting sessie gedaan met als onderwerpen : route onbekend, verschillende en schaden. Met het team hebben we zoveel mogelijk woorden per onderwerp opgeschreven die hierbij passen. Per onderwerp hebben we gestemd over welke woorden wij het beste vonden. Tussenstop, jezelf zijn en repareren. Met deze woorden zijn hebben we een 3 x 3 x 3 sessie gaan doen. Deze concept ideeën hebben we beoordeeld met de COCD box hieruit kwamen een aantal concept richting die we interessant vonden : persona’s opstellen en waarde data visualiseren, experience, gebruik maken van zintuigen en waarde van je data laten zien doormiddel van iets krijgen/kopen. En hierbij zijn we concepten gaan sketchboarden. Deze concepten hebben we besproken en samen zijn we tot 3 verschillende concepten gekomen. ",
     bgColor: "white",
     contentBlocks: [
       {
         content: {
-          title: "Eerste taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de eerste taak die uitgevoerd is. Top!"
+          title: "Concept 1.",
+          subtitle: "Hartwaarde",
+          p: [
+            "De gebruiker wordt aan een hartslag meter gekoppeld, deze hartslag wordt doormiddel van een led hartje aan de gebruiker getoond. Wij analyseren deze hartslag en trekken aannames hieruit. Deze aannames laten we in het led hartje zien. Daarna geven we uitleg over de aannames en hoe deze aannames door databroker bedrijven wordt vastgesteld en verkocht.",
+            "De gebruikt krijgt snel feedback. Het project is laagdrempelig, iedereen met een hartslag kan er gebruik van maken en het maakt een connecties die mensen vaak niet voorafbedenken",
+            "De installatie laat zien hoe makkelijk we onschuldige informatie zoals onze hartslag weg geven en de gevolgen hiervan. Zo kunnen belangrijke aannames vanuit een hartslag kunnen genomen. Zoals heb je een lage hartslag dan ben je waarschijnlijk een sporter en bij onregelmatige heb je groter kans op hart defecten.",
+            "We willen dat mensen bewuster zijn over hoe persoonlijk en hoe gevoelige informatie je hartslag is. En bewust worden van hoe er aan jouw hartslag kan worden verdient.",
+          ],
+          img: {
+            src: "./img/concept1.png",
+            alt: "visualisatie van het concept hartwaarde"
+          }
         }
       },
       {
         content: {
-          title: "Tweede taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de tweede taak die uitgevoerd is. Top!"
+          title: "Concept 2.",
+          subtitle: "Achter de schermen",
+          p: [
+            "In een ‘onschuldig’ vooropgezet gesprek met één van onze teamgenoten worden bezoekers van het festival op sluikse manier ontdaan over hun persoonlijke data; een weerspiegeling van wat er momenteel gebeurt met persoonlijke data onder internet gebruikers.",
+            "Achter de schermen worden de antwoorden van de correspondent omgezet in profielen. Vervolgens worden de correspondenten gevraagd plaats te nemen in een (bij voorkeur afgesloten) omgeving.",
+            "De opgestelde profielen worden door middel van een projector weergeven op het lichaam van de niets vermoedende correspondent. De correspondent beseft dat het ‘onschuldige’ gesprek in werkelijkheid helemaal niet zo onschuldig was.",
+            "Achteraf wordt door een hand out of one-pager uitgelegd dat dit scenario zich continue afspeelt op het internet, en wat de consequenties hiervan zouden kunnen zijn.",
+            "Door de realistische weerspiegeling met het ‘proces’ welke plaatsvind op het internet wordt de correspondent actief geconfronteerd met de gevolgen van haar of zijn gebruik van het internet met betrekking tot data en haar of zijn privacy. Dit resulteert in bewustwording."
+          ],
+          img: {
+            src: "./img/concept2.png",
+            alt: "visualisatie van het concept hartwaarde"
+          }
+        }
+      },
+      {
+        content: {
+          title: "Concept 3.",
+          subtitle: "Data for sale",
+          p: [
+            "Tijdens het bevrijdingsfestival willen wij producten gaan verkopen met als valuta data. Het idee is om een vaste prijs te geven aan het product. De klanten zullen data weg moeten geven om het product te kunnen kopen. Ze zullen zelf moeten inschatten hoeveel hun data waard is. Wanneer ze dit gedaan hebben geven wij aan of ze boven of onder het bedrag zaten. Op deze manier willen we bewustwording brengen over het feit dat je data geld waard is. Ook komen we er achter welke data mensen liever niet weggeven en kunnen we het gesprek aangaan waarom sommige data erg makkelijk weggeven wordt. Het doel is om mensen te laten inzien hoe makkelijk ze geld weg geven en hoeveel bedrijven hier eigenlijk mee kunnen verdienen."
+          ],
+          img: {
+            src: "./img/concept3.png",
+            alt: "visualisatie van het concept hartwaarde"
+          }
         }
       }
     ]
