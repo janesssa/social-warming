@@ -54,7 +54,8 @@ export const profiles = {
 
 export const progress = {
   designTactics: {
-    title: "Ontwerp technieken",
+    firstTitle: "Ontwerp",
+    secondTitle: "technieken",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
     bgColor: "black",
     contentBlocks: [

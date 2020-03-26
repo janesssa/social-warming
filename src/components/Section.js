@@ -1,16 +1,21 @@
 import React from 'react'
-
+import '../styles/index.scss';
 import ContentBlock from './ContentBlock'
 
 // Title
 // Intro
 // ContentBlocks
 
+
 const Section = ({content}) => {
     const className = `container ${content.bgColor}`
     return (
         <div className={className}>
-            <h2>{content.title}</h2>
+            <div class="title"> 
+            <h2 class="firstTitle">{content.firstTitle}</h2>
+            <h2 class="secondTitle">{content.secondTitle}</h2>
+            </div>
+
             <p>{content.intro}</p>
             {content.contentBlocks.map((block, i) => (
                 <ContentBlock content={block} i={i} />
