@@ -28,12 +28,16 @@ const NumberBlock = ({data, i}) => {
 const IconBlock = ({content}) => {
   return (
     <div class='container'>
-      <Image data={content.icon} />
-      <h5>{content.title}</h5>
-      <p>{content.text}</p>
-      {content.img && (
-        <Image data={content.img} />
-      )}
+      <span className="sm-title">
+        <Image data={content.icon} />
+      </span>
+      <span className="context">
+        <h5 className="subtitle bold">{content.title}</h5>
+        <p>{content.text}</p>
+        {content.img && (
+          <Image data={content.img} />
+        )}
+      </span>
     </div>
   )
 }
