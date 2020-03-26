@@ -202,15 +202,33 @@ export const progress = {
     contentBlocks: [
       {
         content: {
-          list: [
-            "Het product moet interactie met de gebruiker mogelijk maken.",
-            "Het product moet een combinatie zijn van fysiek en digitaal.", 
-            "Het product moet 'ervaren' kunnen worden.", 
-            "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.", 
-            "Het product moet bewustwording creëren met betrekking tot het thema 'social cooling', en de impact van de door de gebruiker ingevoerde data weergeven.",
-            "De waarde van data, en de route die de data aflegt moet weerspiegeld worden in het product.",
-          ]
+          text: "Het product moet interactie met de gebruiker mogelijk maken.",
         }
+      },
+      {
+        content: {
+          text: "Het product moet een combinatie zijn van fysiek en digitaal.", 
+        },
+      },
+      {
+        content: {
+          text: "Het product moet 'ervaren' kunnen worden.", 
+        }
+      },
+      {
+        content: {
+          text: "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.", 
+        },
+      },
+      {
+        content: {
+          text: "Het product moet bewustwording creëren met betrekking tot het thema 'social cooling', en de impact van de door de gebruiker ingevoerde data weergeven.",
+        },
+      },
+      {
+        content: {
+          text: "De waarde van data, en de route die de data aflegt moet weerspiegeld worden in het product.",
+        },
       },
     ]
   },
@@ -224,42 +242,53 @@ export const progress = {
         content: {
           title: "Concept 1.",
           subtitle: "Hartwaarde",
-          p: [
-            "De gebruiker wordt aan een hartslag meter gekoppeld, deze hartslag wordt doormiddel van een led hartje aan de gebruiker getoond. Wij analyseren deze hartslag en trekken aannames hieruit. Deze aannames laten we in het led hartje zien. Daarna geven we uitleg over de aannames en hoe deze aannames door databroker bedrijven wordt vastgesteld en verkocht.",
-            "De gebruikt krijgt snel feedback. Het project is laagdrempelig, iedereen met een hartslag kan er gebruik van maken en het maakt een connecties die mensen vaak niet voorafbedenken",
-            "De installatie laat zien hoe makkelijk we onschuldige informatie zoals onze hartslag weg geven en de gevolgen hiervan. Zo kunnen belangrijke aannames vanuit een hartslag kunnen genomen. Zoals heb je een lage hartslag dan ben je waarschijnlijk een sporter en bij onregelmatige heb je groter kans op hart defecten.",
-            "We willen dat mensen bewuster zijn over hoe persoonlijk en hoe gevoelige informatie je hartslag is. En bewust worden van hoe er aan jouw hartslag kan worden verdient.",
-          ],
+          text: "De gebruiker wordt aan een hartslag meter gekoppeld, deze hartslag wordt doormiddel van een led hartje aan de gebruiker getoond. Wij analyseren deze hartslag en trekken aannames hieruit. Deze aannames laten we in het led hartje zien. Daarna geven we uitleg over de aannames en hoe deze aannames door databroker bedrijven wordt vastgesteld en verkocht.",    
           img: {
             src: "./img/concept1.png",
             alt: "visualisatie van het concept hartwaarde"
           }
+        },
+        content: {
+          text: "De gebruikt krijgt snel feedback. Het project is laagdrempelig, iedereen met een hartslag kan er gebruik van maken en het maakt een connecties die mensen vaak niet voorafbedenken",
+        },
+        content: {
+          text: "De installatie laat zien hoe makkelijk we onschuldige informatie zoals onze hartslag weg geven en de gevolgen hiervan. Zo kunnen belangrijke aannames vanuit een hartslag kunnen genomen. Zoals heb je een lage hartslag dan ben je waarschijnlijk een sporter en bij onregelmatige heb je groter kans op hart defecten.",
+        },
+        content: {
+          text: "De gebruikt krijgt snel feedback. Het project is laagdrempelig, iedereen met een hartslag kan er gebruik van maken en het maakt een connecties die mensen vaak niet voorafbedenken",
+        },
+        content: {
+          text: "We willen dat mensen bewuster zijn over hoe persoonlijk en hoe gevoelige informatie je hartslag is. En bewust worden van hoe er aan jouw hartslag kan worden verdient.",
         }
       },
       {
         content: {
           title: "Concept 2.",
           subtitle: "Achter de schermen",
-          p: [
-            "In een ‘onschuldig’ vooropgezet gesprek met één van onze teamgenoten worden bezoekers van het festival op sluikse manier ontdaan over hun persoonlijke data; een weerspiegeling van wat er momenteel gebeurt met persoonlijke data onder internet gebruikers.",
-            "Achter de schermen worden de antwoorden van de correspondent omgezet in profielen. Vervolgens worden de correspondenten gevraagd plaats te nemen in een (bij voorkeur afgesloten) omgeving.",
-            "De opgestelde profielen worden door middel van een projector weergeven op het lichaam van de niets vermoedende correspondent. De correspondent beseft dat het ‘onschuldige’ gesprek in werkelijkheid helemaal niet zo onschuldig was.",
-            "Achteraf wordt door een hand out of one-pager uitgelegd dat dit scenario zich continue afspeelt op het internet, en wat de consequenties hiervan zouden kunnen zijn.",
-            "Door de realistische weerspiegeling met het ‘proces’ welke plaatsvind op het internet wordt de correspondent actief geconfronteerd met de gevolgen van haar of zijn gebruik van het internet met betrekking tot data en haar of zijn privacy. Dit resulteert in bewustwording."
-          ],
+            text: "In een ‘onschuldig’ vooropgezet gesprek met één van onze teamgenoten worden bezoekers van het festival op sluikse manier ontdaan over hun persoonlijke data; een weerspiegeling van wat er momenteel gebeurt met persoonlijke data onder internet gebruikers.",
           img: {
             src: "./img/concept2.png",
             alt: "visualisatie van het concept hartwaarde"
           }
-        }
+        },
+        content: {
+           text: "Achter de schermen worden de antwoorden van de correspondent omgezet in profielen. Vervolgens worden de correspondenten gevraagd plaats te nemen in een (bij voorkeur afgesloten) omgeving.",
+        },
+        content: {
+          text: "De opgestelde profielen worden door middel van een projector weergeven op het lichaam van de niets vermoedende correspondent. De correspondent beseft dat het ‘onschuldige’ gesprek in werkelijkheid helemaal niet zo onschuldig was.",
+        },
+        content: {
+          text: "Achteraf wordt door een hand out of one-pager uitgelegd dat dit scenario zich continue afspeelt op het internet, en wat de consequenties hiervan zouden kunnen zijn.",
+        },
+        content: {
+          text: "Door de realistische weerspiegeling met het ‘proces’ welke plaatsvind op het internet wordt de correspondent actief geconfronteerd met de gevolgen van haar of zijn gebruik van het internet met betrekking tot data en haar of zijn privacy. Dit resulteert in bewustwording."
+        },
       },
       {
         content: {
           title: "Concept 3.",
           subtitle: "Data for sale",
-          p: [
-            "Tijdens het bevrijdingsfestival willen wij producten gaan verkopen met als valuta data. Het idee is om een vaste prijs te geven aan het product. De klanten zullen data weg moeten geven om het product te kunnen kopen. Ze zullen zelf moeten inschatten hoeveel hun data waard is. Wanneer ze dit gedaan hebben geven wij aan of ze boven of onder het bedrag zaten. Op deze manier willen we bewustwording brengen over het feit dat je data geld waard is. Ook komen we er achter welke data mensen liever niet weggeven en kunnen we het gesprek aangaan waarom sommige data erg makkelijk weggeven wordt. Het doel is om mensen te laten inzien hoe makkelijk ze geld weg geven en hoeveel bedrijven hier eigenlijk mee kunnen verdienen."
-          ],
+          text: "Tijdens het bevrijdingsfestival willen wij producten gaan verkopen met als valuta data. Het idee is om een vaste prijs te geven aan het product. De klanten zullen data weg moeten geven om het product te kunnen kopen. Ze zullen zelf moeten inschatten hoeveel hun data waard is. Wanneer ze dit gedaan hebben geven wij aan of ze boven of onder het bedrag zaten. Op deze manier willen we bewustwording brengen over het feit dat je data geld waard is. Ook komen we er achter welke data mensen liever niet weggeven en kunnen we het gesprek aangaan waarom sommige data erg makkelijk weggeven wordt. Het doel is om mensen te laten inzien hoe makkelijk ze geld weg geven en hoeveel bedrijven hier eigenlijk mee kunnen verdienen.",
           img: {
             src: "./img/concept3.png",
             alt: "visualisatie van het concept hartwaarde"
