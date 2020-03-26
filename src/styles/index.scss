@@ -15,20 +15,18 @@ code {
 }
 
 body, html, .lg-container {
+  height: 100%;
   margin: 0;
   right: 0;
   top: 0;
-}
-
-.lg-container {
-  display: flex;
-  flex-direction: column;
+  overflow-x: hidden;
   text-align: center;
+  list-style: none;
 }
 
-.container {
+.header {
   width: 100%;
-  max-height: 400px;
-  display: flex;
-  justify-content: space-around;
+  height: 100vh;
+  background-color: $mainColor;
+  padding: 50px;
 }

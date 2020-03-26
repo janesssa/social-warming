@@ -1,7 +1,12 @@
 import React from 'react'
 
 const Header = () => {
-    return <h1>Social Warming</h1>
+    return (
+        <diV className='header'>
+            <h1>Social Warming</h1>
+            <p>Promo text</p>
+        </diV>
+    )
 }
 
 export default Header
