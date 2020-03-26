@@ -56,6 +56,7 @@ export const progress = {
   designTactics: {
     title: "Ontwerp technieken",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    bgColor: "black",
     contentBlocks: [
       {
         content: {
@@ -96,6 +97,7 @@ export const progress = {
   insights: {
     title: "Ontwerp technieken",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    bgColor: "white",
     contentBlocks: [
       {
         content: {
@@ -116,6 +118,7 @@ export const progress = {
   designCriteria: {
     title: "Ontwerp technieken",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    bgColor: "red",
     contentBlocks: [
       {
         content: {
@@ -136,6 +139,7 @@ export const progress = {
   concepts: {
     title: "Ontwerp technieken",
     intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    bgColor: "white",
     contentBlocks: [
       {
         content: {
