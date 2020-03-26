@@ -2,8 +2,6 @@ import React from "react";
 
 import Image from "./Image"
 
-// TODO: Dit block kan gestyled worden, dit is een block zoals bij Ontwerp Technieken gebruikt wordt in de wireframes
-
 const NumberBlock = ({data, i}) => {
   const content = data.content
   return (
@@ -23,9 +21,6 @@ const NumberBlock = ({data, i}) => {
     </div>
   )
 }
-
-// TODO: Dit block kan gestyled worden, dit is een block zoals bij Onderzoek en Inzichten gebruikt wordt in de wireframes
-// Let op!: Als er nog geen foto/icon toegevoegd is moet je dit even weglaten, anders krijg je errors in je code
 
 const IconBlock = ({content}) => {
   return (

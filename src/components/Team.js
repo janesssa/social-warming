@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "./Image";
 
-// TODO: Deze pagina moet nog gestyled worden, regels 10-16 en 20-26 zijn de blokken van de personen
-//       Je kan hier dus gewoon CSS overheen gooien.
-//       Let op!: een class in React moet je aanmaken met className
-
 const Profile = ({ profile }) => {
   return (
     <div className='profileCard'>
@@ -30,7 +26,7 @@ const Team = ({ profiles }) => {
         ))}
       </span>
       <h3 className='study'>CMD</h3>
-      <span>
+      <span className='sm-container'>
         {profiles.cmd.map(profile => (
             <Profile profile={profile} />
         ))}
