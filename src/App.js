@@ -50,8 +50,12 @@ function App() {
   return (
     <div className="lg-container">
       <Header />
-      <ProgressList content={progress} />
-      <ProfileList team={profiles} />
+     
+      {Object.keys(progress).map(section => (
+        <Section content={progress[section]} />
+      ))}
+
+      <Team profiles={profiles} />
     </div>
   );
 }

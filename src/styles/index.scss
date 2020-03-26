@@ -1,0 +1,82 @@
+@import './variables.scss';
+
+body {
+  margin: 0;
+  font-family: $mainFont; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, html, .lg-container {
+  margin: 0;
+  right: 0;
+  top: 0;
+}
+
+.lg-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: $mainColor;
+  color: $secondaryColor;
+  padding: 50px;
+
+  button {
+    padding: 0;
+    border: none;
+    background: none;
+    background-color: $lightMainColor;
+    color: $secondaryColor;
+    font-size:15px;
+    padding: 10px 15px;
+  }
+
+}
+
+.titel {
+  margin-left: 20%;
+  text-transform: uppercase;
+
+  .firstTitle{
+    font-style: italic;
+    font-size: 55px;
+    font-weight: 200;
+    margin-left: -170px;
+    margin-bottom: -40px;
+  }
+
+  .secondTitle{
+    font-size: 70px;
+    font-weight: 900;
+    top: -100px;
+  }
+
+}
+
+.text{
+  margin-top: -36px;
+  margin-left: 20%;
+  color: $lightPink;
+  line-height: 1.6;
+  font-weight: 200px;
+  width: 400px;
+}
+
+// ----- ONTWERP TECHNIEKEN ----- 
+
+.designTech{
+  background-color: black; 
+  color: white;
+}
