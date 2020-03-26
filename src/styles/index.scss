@@ -39,7 +39,6 @@ body, html, .lg-container {
   color: $secondaryColor;
   padding: 50px;
 
-
   button {
     padding: 0;
     border: none;
@@ -49,6 +48,13 @@ body, html, .lg-container {
     font-size:15px;
     padding: 10px 15px;
   }
+
+}
+
+.title {
+  margin-left: 20%;
+  text-transform: uppercase;
+
 }
 
 .white {
@@ -69,7 +75,7 @@ body, html, .lg-container {
 .title {
   margin-left: 20%;
   text-transform: uppercase;
-  
+ 
 
   .firstTitle{
     font-style: italic;

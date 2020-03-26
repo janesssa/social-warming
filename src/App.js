@@ -1,5 +1,4 @@
 import React from "react";
-
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Team from "./components/Team";
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="lg-container">
      <div class="container"> <Header /> </div> 
-   
+
       {Object.keys(progress).map(section => (
         <Section content={progress[section]} />
       ))}
