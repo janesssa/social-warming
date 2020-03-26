@@ -85,6 +85,11 @@ export const intro = {
 }
 
 export const progress = {
+  header: {
+    firstTitle: "Social",
+    secondTitle: "Warming",
+    intro: "Op deze pagina staat vastgelegd hoe de groep social warming te werk gaat met de design challenge : ‘Maak een digitale toepassing over het thema social cooling voor Bevrijdingsdag 5 mei 2020.’. Op deze onepager staat ons creatief proces vastgelegd."    
+  },
   designTactics: {
     firstTitle: "Ontwerp",
     secondTitle: "technieken",

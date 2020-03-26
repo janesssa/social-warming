@@ -1,17 +1,17 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({content}) => {
     return (
         <div className='header'>
 
 
             <div class="title"> 
 
-                <h1 class="firstTitle">Social</h1>
-                <h2 class="secondTitle">Warming</h2>
+                <h1 class="firstTitle">{content.firstTitle}</h1>
+                <h2 class="secondTitle">{content.secondTitle}</h2>
             </div>
             <p class="promo">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            {content.intro}
             <br></br>
             <br></br>
             <button> Lees verder </button>
