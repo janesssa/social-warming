@@ -3,6 +3,16 @@ export const profiles = {
     {
       name: "Janessa Labeur",
       title: "Prototype",
+      detailOne: "Web developer",
+      detailTwo: "Detail numero twee",
+      img: {
+        src: "./profiles/janessa.png",
+        width: "50px"
+      }
+    },
+    {
+      name: "Rachelle Bosman",
+      title: "Design",
       img: {
         src: "./profiles/janessa.png",
         width: "50px"
