@@ -98,15 +98,15 @@ export const progress = {
           text: "Bij deze techniek ga je op zoek naar de onderliggende onderwerpen van een thema. Per thema schrijf je woorden op die bij je opkomen als je aan het thema denkt, zoveel mogelijk en zo snel mogelijk. Als dit voor alle thema’s is gedaan stem je per thema op de woorden die jij het best vindt. Zo eindige je per thema met een woord. Met deze woorden ga je concepten bedenken. Wij hebben als team deze techniek gebruikt omdat het ons werd aangeraden. En het forceert je om anders naar het onderwerp te kijken en je moet creatieve denken om deze woorden samen te brengen in een concept.",
           imgs: [
             {
-              src: "./img/forced1",
+              src: "./img/forced1.png",
               alt: "eerste foto van forced perspective"
             },
             {
-              src: "./img/forced2",
+              src: "./img/forced2.png",
               alt: "tweede foto van forced perspective"
             }, 
             {
-              src: "./img/forced3",
+              src: "./img/forced3.png",
               alt: "derde foto van forced perspective"
             }
           ]
@@ -123,7 +123,7 @@ export const progress = {
           title: "COCD box",
           text: "De COCD box wordt gebruikt voor het beoordelen van concepten. Je maakt een kruis en zet 4 waarden aan elke kant van de lijnen. Als de waarden op dezelfde lijn liggen zijn het tegenovergestelde van elkaar. Per concept beoordeeld je waar deze hoort binnen de box. En aan de hand hiervan kan je de waarden van een concept achterhalen. Hiermee kan je makkelijker de beslissing maken met welke concepten je verder wilt gaan. WIj hebben deze techniek gebruikt om de concepten van de 3 x 3 x 3 sessie te beoordelen.",
           img: {
-            src: "./img/COCD-box",
+            src: "./img/COCD-box.png",
             alt: "foto van de COCD box"
           }
         }
@@ -133,7 +133,7 @@ export const progress = {
           title: "Sketchboarding",
           text: "Sketchboarding is een techniek die helpt bij het visualiseren van concepten. In plaats van tekst ga je je concept visueel maken. Met tekening laat je de flow zien van het concept. Dit zorgt ervoor dat het concept duidelijker. Wij hebben deze techniek gebruikt om onze concepten beter aan elkaar te kunnen presenteren. En op elkaars concepten te kunnen bouwen zodat we een definitieve sketch per concept konden maken.",
           img: {
-            src: "./img/sketchboarding",
+            src: "./img/sketchboarding.png",
             alt: "foto van de COCD box"
           }
         }
