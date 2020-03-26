@@ -151,7 +151,7 @@ export const progress = {
             src: "./img/icons/group.svg",
             alt: "icon van een groep",
           },
-          text: "De stakeholders van dit project zijn : Provincie Zuid-holland, databrokers en nonprofits die strijden voor data regels"
+          text: "De stakeholders van dit project zijn : Provincie Zuid-holland, databrokers en nonprofits die strijden voor data regels",
         }
       },
       {
@@ -170,23 +170,14 @@ export const progress = {
   designCriteria: {
     firstTitle: "Ontwerp",
     secondTitle: "Criteria",
-    intro: "Onderstaande technieken hebben we gebruikt om te ontwerpen.",
+    intro: "Aan de hand van deze insights en de debriefing van de opdracht hebben we ontwerp criteria's opgesteld",
     bgColor: "red",
     contentBlocks: [
       {
         content: {
-          title: "Eerste taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de eerste taak die uitgevoerd is. Top!"
+          list: ["Het product moet interactie met de gebruiker mogelijk maken.", "Het product moet een combinatie zijn van fysiek en digitaal.", "Het product moet 'ervaren' kunnen worden.", "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.", "Het product moet bewustwording creëren met betrekking tot het thema 'social cooling', en de impact van de door de gebruiker ingevoerde data weergeven."]
         }
       },
-      {
-        content: {
-          title: "Tweede taak",
-          subtitle: "Optioneel?",
-          text: "Dit is de tweede taak die uitgevoerd is. Top!"
-        }
-      }
     ]
   },
   concepts: {
