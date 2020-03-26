@@ -34,10 +34,22 @@ body, html, .lg-container {
 .container {
   width: 600px;
   display: flex;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .sm-title {
   flex: 1;
+}
+
+.number {
+  font-weight: 900;
+  font-size: 80px;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
 }
 
 .context {
