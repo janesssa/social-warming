@@ -18,6 +18,16 @@ body, html, .lg-container {
   top: 0;
 }
 
+// Reusable class to center object
+.m0auto {
+  margin: 0 auto;
+}
+
+// Reusable class to set margin to 0
+.m0 {
+  margin: 0;
+}
+
 .lg-container {
   display: flex;
   flex-direction: column;
@@ -25,14 +35,23 @@ body, html, .lg-container {
   list-style: none;
 }
 
+.container {
+  width: 100%;
+  padding: 0 200px;
+}
+
 .sm-container {
   width: 600px;
   display: flex;
-  padding: 20px;
-  margin: 0 auto;
 }
 
-.container {
+.xs-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
   width: 100%;
   height: 100vh;
   background-color: $mainColor;
@@ -54,7 +73,6 @@ body, html, .lg-container {
 .title {
   margin-left: 20%;
   text-transform: uppercase;
-
 }
 
 .white {
@@ -101,6 +119,7 @@ body, html, .lg-container {
   font-weight: 200px;
   width: 400px;
 }
+
 .sm-title {
   flex: 1;
 }
@@ -108,11 +127,6 @@ body, html, .lg-container {
 .number {
   font-weight: 900;
   font-size: 80px;
-  margin: 0;
-}
-
-.subtitle {
-  margin: 0;
 }
 
 .context {
@@ -121,4 +135,32 @@ body, html, .lg-container {
 
 .bold {
   font-style: bold;
+}
+
+// Title at Team section
+.study {
+  color: $lightGrey;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+// Detail at profiles
+.detail {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+// Card for Team section
+.profileCard {
+  display: flex;
+  max-width: 300px;
+}
+
+// Reusable Link class
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: $mainColor;
 }
