@@ -33,12 +33,15 @@ body, html, .lg-container {
 
 .white {
   background-color: $white;
+  color: $black;
 }
 
 .black {
   background-color: $black;
+  color: $white;
 }
 
 .red {
   background-color: $red;
+  color: $white;
 }
