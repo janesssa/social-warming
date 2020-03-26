@@ -27,7 +27,7 @@ const NumberBlock = ({data, i}) => {
 
 const IconBlock = ({content}) => {
   return (
-    <div class='container'>
+    <div class='sm-container'>
       <span className="sm-title">
         <Image data={content.icon} />
       </span>
