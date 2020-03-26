@@ -15,9 +15,9 @@ export const profiles = {
         src: "./profiles/janessa.png",
         width: "50px"
       }
-    }
+    },
     {
-      name: "Zo&#235; de Waard",
+      name: "Zoe; de Waard",
       title: "",
       img: {
         src: "./profiles/janessa.png",
