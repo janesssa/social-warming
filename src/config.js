@@ -16,11 +16,27 @@ export const profiles = {
         width: "50px"
       }
     }
+    {
+      name: "Zo&#235; de Waard",
+      title: "",
+      img: {
+        src: "./profiles/janessa.png",
+        width: "50px"
+      }
+    }
   ],
   cmd: [
     {
-      name: "Coen",
+      name: "Coen van Pelt",
       title: "design",
+      img: {
+        src: "./profiles/janessa.png",
+        width: "50px"
+      }
+    },
+    {
+      name: "Jonathan van Arkel",
+      title: "",
       img: {
         src: "./profiles/janessa.png",
         width: "50px"
