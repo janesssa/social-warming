@@ -7,13 +7,17 @@ import Image from "./Image"
 const NumberBlock = ({data, i}) => {
   const content = data.content
   return (
-    <div>
-      <h1>{i+1}</h1>
-      <h6>{content.title}</h6>
-      <p>{content.text}</p>
-      {content.img && (
-        <Image data={content.img} />
-      )}
+    <div class='sm-container'>
+      <span className='sm-title'>
+        <h1 className='number'>{i+1}</h1>
+        <h6 className='subtitle'>{content.title}</h6>
+      </span>
+      <span className='context'>
+        <p>{content.text}</p>
+        {content.img && (
+          <Image data={content.img} />
+        )}
+      </span>
     </div>
   )
 }
@@ -23,13 +27,17 @@ const NumberBlock = ({data, i}) => {
 
 const IconBlock = ({content}) => {
   return (
-    <div>
-      <Image data={content.icon} />
-      <h5>{content.title}</h5>
-      <p>{content.text}</p>
-      {content.img && (
-        <Image data={content.img} />
-      )}
+    <div class='container'>
+      <span className="sm-title">
+        <Image data={content.icon} />
+      </span>
+      <span className="context">
+        <h5 className="subtitle bold">{content.title}</h5>
+        <p>{content.text}</p>
+        {content.img && (
+          <Image data={content.img} />
+        )}
+      </span>
     </div>
   )
 }
