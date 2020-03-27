@@ -6,26 +6,39 @@ export const profiles = {
       title: "Prototype",
       detailOne: "Web developer",
       detailTwo: "Detail numero twee",
+      github: "https://github.com/janesssa",
+      linkedIn: "https://www.linkedin.com/in/janessalabeur/",
       img: {
-        src: "./profiles/janessa.png",
+        src: "/img/profiles/janessa.png",
         alt: "Avatar van Janessa",
         width: "50px"
       }
     },
-   
+
     {
       name: "Rachelle Bosman",
       title: "Design",
+      detailOne: "Vind zichzelf er grappig",
+      detailTwo: "Is niet grappig",
+      github: "https://github.com/rachellebosman",
+      linkedIn: "https://www.linkedin.com/in/rachelle-bosman-6094b91b/",
       img: {
-        src: "./profiles/janessa.png",
+        src: "/img/profiles/Rachelle.png",
+        alt: "Avatar van Rachelle",       
         width: "50px"
       }
     },
+
     {
-      name: "Zoe; de Waard",
+      name: "Zoë de Waard",
       title: "",
+      detailOne: "Front-end developer",
+      detailTwo: "lievelingskleur is geel",
+      github: "https://github.com/Sweetpurple616",
+      linkedIn: "https://nl.linkedin.com/in/zo%C3%AB-de-waard-973b22108",
       img: {
-        src: "./profiles/janessa.png",
+        src: "/img/profiles/Zoe.png",
+        alt: "Avatar van Zoe",
         width: "50px"
       }
     }
@@ -33,17 +46,27 @@ export const profiles = {
   cmd: [
     {
       name: "Coen van Pelt",
-      title: "design",
+      title: "",
+      detailOne: "UX & UI design",
+      detailTwo: "Wanna be kok",
+      github: "https://github.com/coenvp",
+      linkedIn: "https://nl.linkedin.com/in/coen-van-pelt",
       img: {
-        src: "./profiles/janessa.png",
+        src: "/img/profiles/Coen.png",
+        alt: "Avatar van Coen",   
         width: "50px"
       }
     },
     {
       name: "Jonathan van Arkel",
       title: "",
+      github: "https://github.com/Yonathanvanarkel",
+      linkedIn: "https://nl.linkedin.com/in/jonathan-van-arkel-3a6b35157",
+      detailOne: "Basketball mijn een ding",
+      detailTwo: "Technie/Foodie",
       img: {
-        src: "./profiles/janessa.png",
+        src: "/img/profiles/Jonathan.png",
+        alt: "Avatar van Jonathan",  
         width: "50px"
       }
     }
