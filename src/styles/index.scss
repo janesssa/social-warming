@@ -59,7 +59,7 @@ body, html, .lg-container {
 // Container around whole Section
 .container {
   width: 100%;
-  padding: 0 200px;
+  padding: 50px 200px;
 }
 
 // Container around ContentBlock
@@ -84,14 +84,12 @@ body, html, .lg-container {
   color: $secondaryColor;
   padding: 50px;
 
-  button {
-    padding: 0;
-    border: none;
-    background: none;
+  .button {
     background-color: $lightMainColor;
     color: $secondaryColor;
     font-size:15px;
     padding: 10px 15px;
+    text-decoration: none;
   }
 
 }
@@ -145,12 +143,15 @@ body, html, .lg-container {
   font-weight: normal;
 }
 
+p {
+  line-height: 1.6;
+}
+
 // Text at Header
 .promo{
   margin-top: -36px;
   margin-left: 20%;
   color: $lightPink;
-  line-height: 1.6;
   font-weight: 200px;
   width: 400px;
 }
@@ -158,6 +159,7 @@ body, html, .lg-container {
 // Title of ContentBlocks 
 .sm-title {
   flex: 1;
+  margin-left: -200px;
 }
 
 // Number from ContentBlocks
@@ -174,8 +176,10 @@ body, html, .lg-container {
 
 // Intro from Sections 
 .intro {
-  margin: 0 auto;
+  //margin: 0 auto;
   max-width: 600px;
+  margin-left: 140px;
+  font-style: italic;
 }
 
 // Title at Team section
@@ -195,4 +199,12 @@ body, html, .lg-container {
 .profileCard {
   display: flex;
   max-width: 300px;
+}
+
+//Subitle Number
+.subtitle {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 6px;
+  margin-top: -12px;
 }

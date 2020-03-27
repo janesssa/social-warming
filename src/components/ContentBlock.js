@@ -9,7 +9,7 @@ const NumberBlock = ({data, i}) => {
       {content.title && (
         <span className='sm-title'>
           <h1 className='number m0'>0{i+1}</h1>
-          <h6 className='m0 center'>{content.title}</h6>
+          <h6 className='m0 center subtitle'>{content.title}</h6>
         </span>
       )}
       <span className='context'>

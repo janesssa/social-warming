@@ -12,14 +12,7 @@ export const profiles = {
         width: "50px"
       }
     },
-    {
-      name: "Rachelle Bosman",
-      title: "Design",
-      img: {
-        src: "./profiles/janessa.png",
-        width: "50px"
-      }
-    },
+   
     {
       name: "Rachelle Bosman",
       title: "Design",

@@ -14,10 +14,12 @@ const Header = ({content}) => {
             {content.intro}
             <br></br>
             <br></br>
-            <button> Lees verder </button>
+            <a class="button" href="#continueReading"> Lees verder </a>
             </p>
             
         </div>
+
+        
     )
 }
 
