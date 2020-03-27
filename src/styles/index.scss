@@ -171,7 +171,7 @@ p {
 
 // Context from ContenBlocks
 .context {
-  flex: 2;
+  flex: 2; 
 }
 
 // Intro from Sections 
@@ -199,6 +199,12 @@ p {
 .profileCard {
   display: flex;
   max-width: 300px;
+
+  img {
+    object-fit: cover;
+    padding: 8px 16px 8px 0;
+  }
+
 }
 
 //Subitle Number
@@ -207,4 +213,10 @@ p {
   text-align: left;
   margin-left: 6px;
   margin-top: -12px;
+}
+
+//conceptImg 
+.conceptImg {
+  width: 70%;
+  height: auto;
 }

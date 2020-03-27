@@ -5,7 +5,7 @@ export const profiles = {
       name: "Janessa Labeur",
       title: "Prototype",
       detailOne: "Web developer",
-      detailTwo: "Detail numero twee",
+      detailTwo: "Git held",
       github: "https://github.com/janesssa",
       linkedIn: "https://www.linkedin.com/in/janessalabeur/",
       img: {
@@ -24,7 +24,7 @@ export const profiles = {
       linkedIn: "https://www.linkedin.com/in/rachelle-bosman-6094b91b/",
       img: {
         src: "/img/profiles/Rachelle.png",
-        alt: "Avatar van Rachelle",       
+        alt: "Avatar van Rachelle",
         width: "50px"
       }
     },
@@ -53,7 +53,7 @@ export const profiles = {
       linkedIn: "https://nl.linkedin.com/in/coen-van-pelt",
       img: {
         src: "/img/profiles/Coen.png",
-        alt: "Avatar van Coen",   
+        alt: "Avatar van Coen",
         width: "50px"
       }
     },
@@ -66,7 +66,7 @@ export const profiles = {
       detailTwo: "Technie/Foodie",
       img: {
         src: "/img/profiles/Jonathan.png",
-        alt: "Avatar van Jonathan",  
+        alt: "Avatar van Jonathan",
         width: "50px"
       }
     }
@@ -106,7 +106,7 @@ export const progress = {
   header: {
     firstTitle: "Social",
     secondTitle: "Warming",
-    intro: "Op deze pagina staat vastgelegd hoe de groep social warming te werk gaat met de design challenge : ‘Maak een digitale toepassing over het thema social cooling voor Bevrijdingsdag 5 mei 2020.’. Op deze onepager staat ons creatief proces vastgelegd."    
+    intro: "Op deze pagina staat vastgelegd hoe de groep social warming te werk gaat met de design challenge : ‘Maak een digitale toepassing over het thema social cooling voor Bevrijdingsdag 5 mei 2020.’. Op deze onepager staat ons creatief proces vastgelegd."
   },
   designTactics: {
     firstTitle: "Ontwerp",
@@ -137,7 +137,7 @@ export const progress = {
             {
               src: "/img/forced2.png",
               alt: "tweede foto van forced perspective"
-            }, 
+            },
             {
               src: "/img/forced3.png",
               alt: "derde foto van forced perspective"
@@ -225,17 +225,17 @@ export const progress = {
       },
       {
         content: {
-          text: "Het product moet een combinatie zijn van fysiek en digitaal.", 
+          text: "Het product moet een combinatie zijn van fysiek en digitaal.",
         },
       },
       {
         content: {
-          text: "Het product moet 'ervaren' kunnen worden.", 
+          text: "Het product moet 'ervaren' kunnen worden.",
         }
       },
       {
         content: {
-          text: "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.", 
+          text: "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.",
         },
       },
       {
@@ -260,10 +260,11 @@ export const progress = {
         content: {
           title: "Concept 1.",
           subtitle: "Hartwaarde",
-          text: "De gebruiker wordt aan een hartslag meter gekoppeld, deze hartslag wordt doormiddel van een led hartje aan de gebruiker getoond. Wij analyseren deze hartslag en trekken aannames hieruit. Deze aannames laten we in het led hartje zien. Daarna geven we uitleg over de aannames en hoe deze aannames door databroker bedrijven wordt vastgesteld en verkocht.",    
+          text: "De gebruiker wordt aan een hartslag meter gekoppeld, deze hartslag wordt doormiddel van een led hartje aan de gebruiker getoond. Wij analyseren deze hartslag en trekken aannames hieruit. Deze aannames laten we in het led hartje zien. Daarna geven we uitleg over de aannames en hoe deze aannames door databroker bedrijven wordt vastgesteld en verkocht.",
           img: {
             src: "/img/concept1.png",
-            alt: "visualisatie van het concept hartwaarde"
+            alt: "visualisatie van het concept hartwaarde",
+            className: "conceptImg"
           }
         },
       },
@@ -276,7 +277,7 @@ export const progress = {
         content: {
           text: "De installatie laat zien hoe makkelijk we onschuldige informatie zoals onze hartslag weg geven en de gevolgen hiervan. Zo kunnen belangrijke aannames vanuit een hartslag kunnen genomen. Zoals heb je een lage hartslag dan ben je waarschijnlijk een sporter en bij onregelmatige heb je groter kans op hart defecten.",
         },
-      }, 
+      },
       {
         content: {
           text: "De gebruikt krijgt snel feedback. Het project is laagdrempelig, iedereen met een hartslag kan er gebruik van maken en het maakt een connecties die mensen vaak niet voorafbedenken",
@@ -287,38 +288,39 @@ export const progress = {
           text: "We willen dat mensen bewuster zijn over hoe persoonlijk en hoe gevoelige informatie je hartslag is. En bewust worden van hoe er aan jouw hartslag kan worden verdient.",
         }
       },
-  
+
       {
         content: {
           title: "Concept 2.",
           subtitle: "Achter de schermen",
-            text: "In een ‘onschuldig’ vooropgezet gesprek met één van onze teamgenoten worden bezoekers van het festival op sluikse manier ontdaan over hun persoonlijke data; een weerspiegeling van wat er momenteel gebeurt met persoonlijke data onder internet gebruikers.",
+          text: "In een ‘onschuldig’ vooropgezet gesprek met één van onze teamgenoten worden bezoekers van het festival op sluikse manier ontdaan over hun persoonlijke data; een weerspiegeling van wat er momenteel gebeurt met persoonlijke data onder internet gebruikers.",
           img: {
             src: "/img/concept2.png",
-            alt: "visualisatie van het concept hartwaarde"
+            alt: "visualisatie van het concept hartwaarde",
+            className: "conceptImg"
           }
         },
       },
-        {
-          content: {
-              text: "Achter de schermen worden de antwoorden van de correspondent omgezet in profielen. Vervolgens worden de correspondenten gevraagd plaats te nemen in een (bij voorkeur afgesloten) omgeving.",
-            },
+      {
+        content: {
+          text: "Achter de schermen worden de antwoorden van de correspondent omgezet in profielen. Vervolgens worden de correspondenten gevraagd plaats te nemen in een (bij voorkeur afgesloten) omgeving.",
         },
-        {
-          content: {
-            text: "De opgestelde profielen worden door middel van een projector weergeven op het lichaam van de niets vermoedende correspondent. De correspondent beseft dat het ‘onschuldige’ gesprek in werkelijkheid helemaal niet zo onschuldig was.",
-          },
+      },
+      {
+        content: {
+          text: "De opgestelde profielen worden door middel van een projector weergeven op het lichaam van de niets vermoedende correspondent. De correspondent beseft dat het ‘onschuldige’ gesprek in werkelijkheid helemaal niet zo onschuldig was.",
         },
-        {
-          content: {
-            text: "Achteraf wordt door een hand out of one-pager uitgelegd dat dit scenario zich continue afspeelt op het internet, en wat de consequenties hiervan zouden kunnen zijn.",
-          },
+      },
+      {
+        content: {
+          text: "Achteraf wordt door een hand out of one-pager uitgelegd dat dit scenario zich continue afspeelt op het internet, en wat de consequenties hiervan zouden kunnen zijn.",
         },
-        {
-          content: {
-            text: "Door de realistische weerspiegeling met het ‘proces’ welke plaatsvind op het internet wordt de correspondent actief geconfronteerd met de gevolgen van haar of zijn gebruik van het internet met betrekking tot data en haar of zijn privacy. Dit resulteert in bewustwording."
-          },
+      },
+      {
+        content: {
+          text: "Door de realistische weerspiegeling met het ‘proces’ welke plaatsvind op het internet wordt de correspondent actief geconfronteerd met de gevolgen van haar of zijn gebruik van het internet met betrekking tot data en haar of zijn privacy. Dit resulteert in bewustwording."
         },
+      },
       {
         content: {
           title: "Concept 3.",
@@ -326,7 +328,8 @@ export const progress = {
           text: "Tijdens het bevrijdingsfestival willen wij producten gaan verkopen met als valuta data. Het idee is om een vaste prijs te geven aan het product. De klanten zullen data weg moeten geven om het product te kunnen kopen. Ze zullen zelf moeten inschatten hoeveel hun data waard is. Wanneer ze dit gedaan hebben geven wij aan of ze boven of onder het bedrag zaten. Op deze manier willen we bewustwording brengen over het feit dat je data geld waard is. Ook komen we er achter welke data mensen liever niet weggeven en kunnen we het gesprek aangaan waarom sommige data erg makkelijk weggeven wordt. Het doel is om mensen te laten inzien hoe makkelijk ze geld weg geven en hoeveel bedrijven hier eigenlijk mee kunnen verdienen.",
           img: {
             src: "/img/concept3.png",
-            alt: "visualisatie van het concept hartwaarde"
+            alt: "visualisatie van het concept hartwaarde",
+            className: "conceptImg"
           }
         }
       }
