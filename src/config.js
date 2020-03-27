@@ -1,3 +1,4 @@
+
 export const profiles = {
   cmgt: [
     {
@@ -103,7 +104,7 @@ export const progress = {
           subtitle: "Optioneel?",
           text: "Mindmapping is een creatieve techniek die helpt bij het leggen van connecties bij een onderwerp. In de mindmap staat een onderwerp centraal. Dit onderwerp breed je uit met verschillende takken, deze takken zijn woorden die je associeert bij het onderwerp. Deze takken worden nu het onderwerp van de volgende vertakkingen. Zo heb je uiteindelijk een heel web met begrippen sommige hiervan hebben met het hoofdonderwerp te maken en sommige ook niet. Wij hebben deze methode gebruikt omdat het een overzicht van het onderwerp geeft en alle onderdelen hier erbij hoorden. En tijdens het maken van de mindmapping kom je er achter als groep waar je nog dieper op in moet gaan.",
           img: {
-            src: "./img/mindmapping.png",
+            src: "/img/mindmapping.png",
             alt: "foto van mindmap"
           }
         }
@@ -114,15 +115,15 @@ export const progress = {
           text: "Bij deze techniek ga je op zoek naar de onderliggende onderwerpen van een thema. Per thema schrijf je woorden op die bij je opkomen als je aan het thema denkt, zoveel mogelijk en zo snel mogelijk. Als dit voor alle thema’s is gedaan stem je per thema op de woorden die jij het best vindt. Zo eindige je per thema met een woord. Met deze woorden ga je concepten bedenken. Wij hebben als team deze techniek gebruikt omdat het ons werd aangeraden. En het forceert je om anders naar het onderwerp te kijken en je moet creatieve denken om deze woorden samen te brengen in een concept.",
           imgs: [
             {
-              src: "./img/forced1.png",
+              src: "/img/forced1.png",
               alt: "eerste foto van forced perspective"
             },
             {
-              src: "./img/forced2.png",
+              src: "/img/forced2.png",
               alt: "tweede foto van forced perspective"
             }, 
             {
-              src: "./img/forced3.png",
+              src: "/img/forced3.png",
               alt: "derde foto van forced perspective"
             }
           ]
@@ -139,7 +140,7 @@ export const progress = {
           title: "COCD box",
           text: "De COCD box wordt gebruikt voor het beoordelen van concepten. Je maakt een kruis en zet 4 waarden aan elke kant van de lijnen. Als de waarden op dezelfde lijn liggen zijn het tegenovergestelde van elkaar. Per concept beoordeeld je waar deze hoort binnen de box. En aan de hand hiervan kan je de waarden van een concept achterhalen. Hiermee kan je makkelijker de beslissing maken met welke concepten je verder wilt gaan. WIj hebben deze techniek gebruikt om de concepten van de 3 x 3 x 3 sessie te beoordelen.",
           img: {
-            src: "./img/COCD-box.png",
+            src: "/img/COCD-box.png",
             alt: "foto van de COCD box"
           }
         }
@@ -149,7 +150,7 @@ export const progress = {
           title: "Sketchboarding",
           text: "Sketchboarding is een techniek die helpt bij het visualiseren van concepten. In plaats van tekst ga je je concept visueel maken. Met tekening laat je de flow zien van het concept. Dit zorgt ervoor dat het concept duidelijker. Wij hebben deze techniek gebruikt om onze concepten beter aan elkaar te kunnen presenteren. En op elkaars concepten te kunnen bouwen zodat we een definitieve sketch per concept konden maken.",
           img: {
-            src: "./img/sketchboarding.png",
+            src: "/img/sketchboarding.png",
             alt: "foto van de COCD box"
           }
         }
@@ -166,7 +167,7 @@ export const progress = {
         content: {
           title: "Doelgroep",
           icon: {
-            src: "./img/icons/person.svg",
+            src: "/img/icons/person.svg",
             alt: "icon van een persoon",
           },
           text: "Onze gebruikers zijn het de mensen die naar het festival gaan. Wij richten ons op de mensen die online gebruik maken van forms, accounts en andere services waar je je data bij weg geeft."
@@ -176,7 +177,7 @@ export const progress = {
         content: {
           title: "Stakeholders",
           icon: {
-            src: "./img/icons/group.svg",
+            src: "/img/icons/group.svg",
             alt: "icon van een groep",
           },
           text: "De stakeholders van dit project zijn : Provincie Zuid-holland, databrokers en nonprofits die strijden voor data regels",
@@ -186,7 +187,7 @@ export const progress = {
         content: {
           title: "Deskresearch",
           icon: {
-            src: "./img/icons/search.svg",
+            src: "/img/icons/search.svg",
             alt: "icon van een vergrootglas",
           },
           text: "Aan de hand van de mindmapping hebben we deskresearch gedaan. We hebben de 5 takken van vrijheid zijn de 5 hoofdonderwerpen van onze deskresearch geworden. Met het deskresearch zijn we dieper op deze onderwerpen gekomen. En wat deze onderwerpen betekenen. De ondervindingen vanuit het onderzoek hebben we gedeeld met elkaar en aan de hand hiervan hebben we een overzicht met al onze insights gemaakt die we uit het deskresearch hebben gehaald. De insights die we hier uit hebben gehaald zijn :",
@@ -245,7 +246,7 @@ export const progress = {
           subtitle: "Hartwaarde",
           text: "De gebruiker wordt aan een hartslag meter gekoppeld, deze hartslag wordt doormiddel van een led hartje aan de gebruiker getoond. Wij analyseren deze hartslag en trekken aannames hieruit. Deze aannames laten we in het led hartje zien. Daarna geven we uitleg over de aannames en hoe deze aannames door databroker bedrijven wordt vastgesteld en verkocht.",    
           img: {
-            src: "./img/concept1.png",
+            src: "/img/concept1.png",
             alt: "visualisatie van het concept hartwaarde"
           }
         },
@@ -268,7 +269,7 @@ export const progress = {
           subtitle: "Achter de schermen",
             text: "In een ‘onschuldig’ vooropgezet gesprek met één van onze teamgenoten worden bezoekers van het festival op sluikse manier ontdaan over hun persoonlijke data; een weerspiegeling van wat er momenteel gebeurt met persoonlijke data onder internet gebruikers.",
           img: {
-            src: "./img/concept2.png",
+            src: "/img/concept2.png",
             alt: "visualisatie van het concept hartwaarde"
           }
         },
@@ -291,7 +292,7 @@ export const progress = {
           subtitle: "Data for sale",
           text: "Tijdens het bevrijdingsfestival willen wij producten gaan verkopen met als valuta data. Het idee is om een vaste prijs te geven aan het product. De klanten zullen data weg moeten geven om het product te kunnen kopen. Ze zullen zelf moeten inschatten hoeveel hun data waard is. Wanneer ze dit gedaan hebben geven wij aan of ze boven of onder het bedrag zaten. Op deze manier willen we bewustwording brengen over het feit dat je data geld waard is. Ook komen we er achter welke data mensen liever niet weggeven en kunnen we het gesprek aangaan waarom sommige data erg makkelijk weggeven wordt. Het doel is om mensen te laten inzien hoe makkelijk ze geld weg geven en hoeveel bedrijven hier eigenlijk mee kunnen verdienen.",
           img: {
-            src: "./img/concept3.png",
+            src: "/img/concept3.png",
             alt: "visualisatie van het concept hartwaarde"
           }
         }
