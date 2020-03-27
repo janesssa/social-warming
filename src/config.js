@@ -266,19 +266,28 @@ export const progress = {
             alt: "visualisatie van het concept hartwaarde"
           }
         },
+      },
+      {
         content: {
           text: "De gebruikt krijgt snel feedback. Het project is laagdrempelig, iedereen met een hartslag kan er gebruik van maken en het maakt een connecties die mensen vaak niet voorafbedenken",
         },
+      },
+      {
         content: {
           text: "De installatie laat zien hoe makkelijk we onschuldige informatie zoals onze hartslag weg geven en de gevolgen hiervan. Zo kunnen belangrijke aannames vanuit een hartslag kunnen genomen. Zoals heb je een lage hartslag dan ben je waarschijnlijk een sporter en bij onregelmatige heb je groter kans op hart defecten.",
         },
+      }, 
+      {
         content: {
           text: "De gebruikt krijgt snel feedback. Het project is laagdrempelig, iedereen met een hartslag kan er gebruik van maken en het maakt een connecties die mensen vaak niet voorafbedenken",
         },
+      },
+      {
         content: {
           text: "We willen dat mensen bewuster zijn over hoe persoonlijk en hoe gevoelige informatie je hartslag is. En bewust worden van hoe er aan jouw hartslag kan worden verdient.",
         }
       },
+  
       {
         content: {
           title: "Concept 2.",
@@ -289,19 +298,27 @@ export const progress = {
             alt: "visualisatie van het concept hartwaarde"
           }
         },
-        content: {
-           text: "Achter de schermen worden de antwoorden van de correspondent omgezet in profielen. Vervolgens worden de correspondenten gevraagd plaats te nemen in een (bij voorkeur afgesloten) omgeving.",
-        },
-        content: {
-          text: "De opgestelde profielen worden door middel van een projector weergeven op het lichaam van de niets vermoedende correspondent. De correspondent beseft dat het ‘onschuldige’ gesprek in werkelijkheid helemaal niet zo onschuldig was.",
-        },
-        content: {
-          text: "Achteraf wordt door een hand out of one-pager uitgelegd dat dit scenario zich continue afspeelt op het internet, en wat de consequenties hiervan zouden kunnen zijn.",
-        },
-        content: {
-          text: "Door de realistische weerspiegeling met het ‘proces’ welke plaatsvind op het internet wordt de correspondent actief geconfronteerd met de gevolgen van haar of zijn gebruik van het internet met betrekking tot data en haar of zijn privacy. Dit resulteert in bewustwording."
-        },
       },
+        {
+          content: {
+              text: "Achter de schermen worden de antwoorden van de correspondent omgezet in profielen. Vervolgens worden de correspondenten gevraagd plaats te nemen in een (bij voorkeur afgesloten) omgeving.",
+            },
+        },
+        {
+          content: {
+            text: "De opgestelde profielen worden door middel van een projector weergeven op het lichaam van de niets vermoedende correspondent. De correspondent beseft dat het ‘onschuldige’ gesprek in werkelijkheid helemaal niet zo onschuldig was.",
+          },
+        },
+        {
+          content: {
+            text: "Achteraf wordt door een hand out of one-pager uitgelegd dat dit scenario zich continue afspeelt op het internet, en wat de consequenties hiervan zouden kunnen zijn.",
+          },
+        },
+        {
+          content: {
+            text: "Door de realistische weerspiegeling met het ‘proces’ welke plaatsvind op het internet wordt de correspondent actief geconfronteerd met de gevolgen van haar of zijn gebruik van het internet met betrekking tot data en haar of zijn privacy. Dit resulteert in bewustwording."
+          },
+        },
       {
         content: {
           title: "Concept 3.",
