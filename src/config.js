@@ -14,6 +14,7 @@ export const profiles = {
         width: "50px"
       }
     },
+
     {
       name: "Rachelle Bosman",
       title: "Design",
@@ -27,6 +28,7 @@ export const profiles = {
         width: "50px"
       }
     },
+
     {
       name: "Zoë de Waard",
       title: "",
