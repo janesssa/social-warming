@@ -2,11 +2,6 @@ import React from 'react'
 import '../styles/index.scss';
 import ContentBlock from './ContentBlock'
 
-// Title
-// Intro
-// ContentBlocks
-
-
 const Section = ({content}) => {
     const className = `container ${content.bgColor}`
     return (
