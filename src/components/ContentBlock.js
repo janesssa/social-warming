@@ -32,7 +32,7 @@ const IconBlock = ({ data }) => {
         </span>
       )}
       <span className="context">
-        <div class="secondTitleClass">
+        <div className="secondTitleClass">
           {content.title && (
             <h5 className="bold uppercase">{content.title} &nbsp; </h5>
           )}

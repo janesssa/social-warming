@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Team from "./components/Team";
-import Video from "./components/video";
+import Video from "./components/Video";
 
 import { progress, profiles } from "./config";
 
