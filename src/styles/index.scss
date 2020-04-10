@@ -30,7 +30,13 @@ body, html, .lg-container {
 
 // Reusable bold class
 .bold {
-  font-style: bold;
+  font-weight: bold;
+  font-size: 1em; 
+}
+
+// Reusable uppercase class
+.uppercase {
+  text-transform: uppercase;
 }
 
 // Reusable center class
@@ -178,7 +184,7 @@ p {
 .intro {
   //margin: 0 auto;
   max-width: 600px;
-  margin-left: 140px;
+  margin-left: 260px;
   font-style: italic;
 }
 
@@ -220,3 +226,31 @@ p {
   width: 70%;
   height: auto;
 }
+
+//iconStyling
+.icon{
+  margin-left: 90px;
+  margin-top: 16px;
+}
+
+.iconResearch{
+  margin-top: 30px;
+}
+
+.iconHeart{
+  margin-top: 26px;
+}
+
+.secondTitleClass {
+  display: flex;
+}
+
+//videoStying
+
+.videoContainer{
+  height: 800px;
+  margin: 0 auto;
+}
+
+.video{
+  margin-top: 70px; }

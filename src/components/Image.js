@@ -8,6 +8,7 @@ const Image = ({ data }) => {
       width={data.width}
       height={data.height}
       className={data.className}
+
     />
   );
 };

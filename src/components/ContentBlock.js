@@ -2,13 +2,13 @@ import React from "react";
 
 import Image from "./Image"
 
-const NumberBlock = ({data, i}) => {
+const NumberBlock = ({ data, i }) => {
   const content = data.content
   return (
     <div class='sm-container m0auto'>
       {content.title && (
         <span className='sm-title'>
-          <h1 className='number m0'>0{i+1}</h1>
+          <h1 className='number m0'>0{i + 1}</h1>
           <h6 className='m0 center subtitle'>{content.title}</h6>
         </span>
       )}
@@ -22,7 +22,8 @@ const NumberBlock = ({data, i}) => {
   )
 }
 
-const IconBlock = ({content}) => {
+const IconBlock = ({ data }) => {
+  const content = data.content
   return (
     <div class='sm-container m0auto'>
       {content.icon && (
@@ -31,21 +32,28 @@ const IconBlock = ({content}) => {
         </span>
       )}
       <span className="context">
-        {content.title && (
-          <h5 className="subtitle bold">{content.title}</h5>
-        )}
+        <div class="secondTitleClass">
+          {content.title && (
+            <h5 className="bold uppercase">{content.title} &nbsp; </h5>
+          )}
+          {content.title && (
+            <h5 className="bold">{content.subtitle}</h5>
+          )}
+        </div>
         <p>{content.text}</p>
         {content.img && (
           <Image data={content.img} />
         )}
+
       </span>
     </div>
   )
 }
 
-const ContentBlock = ({content, i}) => {
-  if(content.icon){
-    return <IconBlock content={content} />
+const ContentBlock = ({ content, i }) => {
+
+  if (content.content.icon) {
+    return <IconBlock data={content} />
   } else {
     return <NumberBlock data={content} i={i} />
   }
