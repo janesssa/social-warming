@@ -299,7 +299,7 @@ export const progress = {
       {
         content: {
           icon: {
-            src: "/img/icons/heart.svg",
+            src: "img/icons/heart.svg",
             alt: "icon van een vergrootglas",
             className: "icon iconHeart"
           },
