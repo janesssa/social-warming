@@ -5,12 +5,12 @@ const Header = ({ content }) => {
         <div className='header'>
 
 
-            <div class="title">
+            <div class="title slide-right">
 
                 <h1 class="firstTitle">{content.firstTitle}</h1>
                 <h2 class="secondTitle">{content.secondTitle}</h2>
             </div>
-            <p class="promo">
+            <p class="promo animatie-promo">
                 {content.intro}
                 <br></br>
                 <br></br>

@@ -98,6 +98,10 @@ body, html, .lg-container {
     text-decoration: none;
   }
 
+  .button:hover {
+    background-color: $slightlyDarkerMainColor;
+  }
+
 }
 
 // Background classes for Sections
@@ -254,3 +258,34 @@ p {
 
 .video{
   margin-top: 70px; }
+
+
+//animationTitle
+.slide-right {
+  animation: 3s slide-right;
+}
+
+.animatie-promo{
+  animation: 4s opacity; 
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    opacity: 0;
+  }
+  to {
+    margin-left: 20%;
+    opacity: 1;
+  }
+}
+
+@keyframes opacity{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
