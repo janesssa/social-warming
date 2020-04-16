@@ -249,16 +249,14 @@ p {
   display: flex;
 }
 
-//videoStying
-
 .videoContainer{
-  height: 800px;
-  margin: 0 auto;
+  height: 800px;  
 }
 
 .video{
-  margin-top: 70px; }
-
+  display: flex;
+  justify-content: center ;
+}
 
 //animationTitle
 .slide-right {
