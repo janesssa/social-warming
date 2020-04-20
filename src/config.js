@@ -108,6 +108,13 @@ export const progress = {
     secondTitle: "Warming",
     intro: "Op deze pagina staat vastgelegd hoe de groep social warming te werk gaat met de design challenge : ‘Maak een digitale toepassing over het thema social cooling voor Bevrijdingsdag 5 mei 2020.’. Op deze onepager staat ons creatief proces vastgelegd."
   },
+
+  video: {
+    firstTitle: "dit is ons",
+    secondTitle: "resultaat",
+    url: "https://www.youtube.com/embed/ZqEo4ROGF4g",
+  },
+
   designTactics: {
     firstTitle: "Ontwerp",
     secondTitle: "technieken",
@@ -185,6 +192,7 @@ export const progress = {
           icon: {
             src: "/img/icons/person.svg",
             alt: "icon van een persoon",
+            className: "icon iconResearch"
           },
           text: "Onze gebruikers zijn het de mensen die naar het festival gaan. Wij richten ons op de mensen die online gebruik maken van forms, accounts en andere services waar je je data bij weg geeft."
         }
@@ -195,6 +203,7 @@ export const progress = {
           icon: {
             src: "/img/icons/group.svg",
             alt: "icon van een groep",
+            className: "icon iconResearch"
           },
           text: "De stakeholders van dit project zijn : Provincie Zuid-holland, databrokers en nonprofits die strijden voor data regels",
         }
@@ -205,6 +214,7 @@ export const progress = {
           icon: {
             src: "/img/icons/search.svg",
             alt: "icon van een vergrootglas",
+            className: "icon iconResearch"
           },
           text: "Aan de hand van de mindmapping hebben we deskresearch gedaan. We hebben de 5 takken van vrijheid zijn de 5 hoofdonderwerpen van onze deskresearch geworden. Met het deskresearch zijn we dieper op deze onderwerpen gekomen. En wat deze onderwerpen betekenen. De ondervindingen vanuit het onderzoek hebben we gedeeld met elkaar en aan de hand hiervan hebben we een overzicht met al onze insights gemaakt die we uit het deskresearch hebben gehaald. De insights die we hier uit hebben gehaald zijn :",
           list: ["De route die data aflegt is ontransparant", "De waarden van data is variable", "De gebruiker is niet bewust van de schade die data kan opleveren"]
@@ -220,45 +230,80 @@ export const progress = {
     contentBlocks: [
       {
         content: {
+          icon: {
+            src: "/img/icons/checklist.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon"
+          },
           text: "Het product moet interactie met de gebruiker mogelijk maken.",
         }
       },
       {
         content: {
+          icon: {
+            src: "/img/icons/checklist.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon"
+          },
           text: "Het product moet een combinatie zijn van fysiek en digitaal.",
         },
       },
       {
         content: {
+          icon: {
+            src: "/img/icons/checklist.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon"
+          },
           text: "Het product moet 'ervaren' kunnen worden.",
         }
       },
       {
         content: {
+          icon: {
+            src: "/img/icons/checklist.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon"
+          },
           text: "Mobiel. Het product zal gepresenteerd worden tijdens het Bevrijdingsfestival Rotterdam, om deze reden moet het product mobiel zijn. Een vaste installatie is niet gewenst.",
         },
       },
       {
         content: {
+          icon: {
+            src: "/img/icons/checklist.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon"
+          },
           text: "Het product moet bewustwording creëren met betrekking tot het thema 'social cooling', en de impact van de door de gebruiker ingevoerde data weergeven.",
         },
       },
       {
         content: {
+          icon: {
+            src: "/img/icons/checklist.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon"
+          },
           text: "De waarde van data, en de route die de data aflegt moet weerspiegeld worden in het product.",
         },
       },
     ]
   },
   concepts: {
-    firstTitle: "Drie",
+    firstTitle: "Onze drie",
     secondTitle: "Concepten",
     intro: "Aan de hand van de insights hebben we een forced fitting sessie gedaan met als onderwerpen : route onbekend, verschillende en schaden. Met het team hebben we zoveel mogelijk woorden per onderwerp opgeschreven die hierbij passen. Per onderwerp hebben we gestemd over welke woorden wij het beste vonden. Tussenstop, jezelf zijn en repareren. Met deze woorden zijn hebben we een 3 x 3 x 3 sessie gaan doen. Deze concept ideeën hebben we beoordeeld met de COCD box hieruit kwamen een aantal concept richting die we interessant vonden : persona’s opstellen en waarde data visualiseren, experience, gebruik maken van zintuigen en waarde van je data laten zien doormiddel van iets krijgen/kopen. En hierbij zijn we concepten gaan sketchboarden. Deze concepten hebben we besproken en samen zijn we tot 3 verschillende concepten gekomen. ",
     bgColor: "white",
     contentBlocks: [
       {
         content: {
-          title: "Concept 1.",
+          icon: {
+            src: "img/icons/heart.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon iconHeart"
+          },
+          title: "Concept 1: ",
           subtitle: "Hartwaarde",
           text: "De gebruiker wordt aan een hartslag meter gekoppeld, deze hartslag wordt doormiddel van een led hartje aan de gebruiker getoond. Wij analyseren deze hartslag en trekken aannames hieruit. Deze aannames laten we in het led hartje zien. Daarna geven we uitleg over de aannames en hoe deze aannames door databroker bedrijven wordt vastgesteld en verkocht.",
           img: {
@@ -291,7 +336,12 @@ export const progress = {
 
       {
         content: {
-          title: "Concept 2.",
+          icon: {
+            src: "/img/icons/heart.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon iconHeart"
+          },
+          title: "Concept 2: ",
           subtitle: "Achter de schermen",
           text: "In een ‘onschuldig’ vooropgezet gesprek met één van onze teamgenoten worden bezoekers van het festival op sluikse manier ontdaan over hun persoonlijke data; een weerspiegeling van wat er momenteel gebeurt met persoonlijke data onder internet gebruikers.",
           img: {
@@ -323,7 +373,12 @@ export const progress = {
       },
       {
         content: {
-          title: "Concept 3.",
+          icon: {
+            src: "/img/icons/heart.svg",
+            alt: "icon van een vergrootglas",
+            className: "icon iconHeart"
+          },
+          title: "Concept 3:  ",
           subtitle: "Data for sale",
           text: "Tijdens het bevrijdingsfestival willen wij producten gaan verkopen met als valuta data. Het idee is om een vaste prijs te geven aan het product. De klanten zullen data weg moeten geven om het product te kunnen kopen. Ze zullen zelf moeten inschatten hoeveel hun data waard is. Wanneer ze dit gedaan hebben geven wij aan of ze boven of onder het bedrag zaten. Op deze manier willen we bewustwording brengen over het feit dat je data geld waard is. Ook komen we er achter welke data mensen liever niet weggeven en kunnen we het gesprek aangaan waarom sommige data erg makkelijk weggeven wordt. Het doel is om mensen te laten inzien hoe makkelijk ze geld weg geven en hoeveel bedrijven hier eigenlijk mee kunnen verdienen.",
           img: {

@@ -30,7 +30,13 @@ body, html, .lg-container {
 
 // Reusable bold class
 .bold {
-  font-style: bold;
+  font-weight: bold;
+  font-size: 1em; 
+}
+
+// Reusable uppercase class
+.uppercase {
+  text-transform: uppercase;
 }
 
 // Reusable center class
@@ -90,6 +96,10 @@ body, html, .lg-container {
     font-size:15px;
     padding: 10px 15px;
     text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: $slightlyDarkerMainColor;
   }
 
 }
@@ -178,7 +188,7 @@ p {
 .intro {
   //margin: 0 auto;
   max-width: 600px;
-  margin-left: 140px;
+  margin-left: 260px;
   font-style: italic;
 }
 
@@ -219,4 +229,61 @@ p {
 .conceptImg {
   width: 70%;
   height: auto;
+}
+
+//iconStyling
+.icon{
+  margin-left: 90px;
+  margin-top: 16px;
+}
+
+.iconResearch{
+  margin-top: 30px;
+}
+
+.iconHeart{
+  margin-top: 26px;
+}
+
+.secondTitleClass {
+  display: flex;
+}
+
+.videoContainer{
+  height: 800px;  
+}
+
+.video{
+  display: flex;
+  justify-content: center ;
+}
+
+//animationTitle
+.slide-right {
+  animation: 3s slide-right;
+}
+
+.animatie-promo{
+  animation: 4s opacity; 
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    opacity: 0;
+  }
+  to {
+    margin-left: 20%;
+    opacity: 1;
+  }
+}
+
+@keyframes opacity{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
 }

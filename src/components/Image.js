@@ -3,7 +3,8 @@ import React from "react";
 const Image = ({ data }) => {
   return (
     <img
-      src={data.src}
+
+      src={process.env.PUBLIC_URL + data.src}
       alt={data.alt}
       width={data.width}
       height={data.height}
