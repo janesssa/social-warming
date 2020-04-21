@@ -73,29 +73,6 @@ export const profiles = {
   ]
 };
 
-// Dit kan echt op 20 verschillende manieren worden gestyled. Ligt eraan hoeveel info we willen meegeven.
-// Denk dat het wellicht handig is om naar Tuckman's model te kijken
-
-// sectionTitle: {
-//   title: string,
-//   intro: string,
-//   contentBlocks: [
-//     {
-//       content: {
-//         title: string,
-//         text: string
-//       },
-//       icon?: {
-//         src: string,
-//         alt: string,
-//         width?: string,
-//         height?: string,
-//         className?: string
-//       }
-//     }
-//   ]
-// }
-
 export const intro = {
   firstTitle: "Social",
   secondTitle: "Warming",
@@ -108,13 +85,11 @@ export const progress = {
     secondTitle: "Warming",
     intro: "Op deze pagina staat vastgelegd hoe de groep social warming te werk gaat met de design challenge : ‘Maak een digitale toepassing over het thema social cooling voor Bevrijdingsdag 5 mei 2020.’. Op deze onepager staat ons creatief proces vastgelegd."
   },
-
   video: {
     firstTitle: "dit is ons",
     secondTitle: "resultaat",
     url: "https://www.youtube.com/embed/ZqEo4ROGF4g",
   },
-
   designTactics: {
     firstTitle: "Ontwerp",
     secondTitle: "technieken",
@@ -387,6 +362,19 @@ export const progress = {
             className: "conceptImg"
           }
         }
+      }
+    ]
+  },
+  prototype: {
+    firstTitle: "Ontwikkel",
+    secondTitle: "Proces",
+    intro: "Om tot een prototype te komen hebben we een website moeten ontwikkelen. Hieronder kan gelezen worden hoe we tot beslissingen betreft het programmeren gekomen zijn.",
+    bgColor: "red",
+    contentBlocks: [
+      {
+        content: {
+          text: "Om het prototype te ontwikkelen hebben we besloten om met ReactJs een website te maken. Eerder hadden we het idee om een fysieke installatie te gaan bouwen. Door de crisis op dit moment was dit niet rendabel. We hebben besloten een website te bouwen omdat dit goed gebruikt en getest kan worden. Janessa had al ervaring met ReactJs, Rachelle wilde haar kennis hierin wel uitbreiden, en Zoë had geen mening hierover. Om snel van start te gaan heeft Janessa een opzet gemaakt. Vanuit daar zijn we alle taken gaan verdelen. We hebben dit per onderdeel aangekeken. In het begin hebben Zoë en Janessa voornamelijk aan het prototype gewerkt. Rachelle heeft verder gewerkt aan de onepager. Wanneer we onze taken af hadden, zijn we weer gaan overleggen wat de volgende stap is. Dit zorgde ervoor dat we goed konden inspelen op de kennis en kracht van teamgenoten. Zoë is voornamelijk met de content en styling bezig geweest. Rachelle ook met de styling. Janessa heeft vooral gefocust op de logica achter de vragen. Daarnaast hebben Rachelle en Janessa ook geoefend met animaties. Voor allebei een nieuwe uitdaging. We hebben onze voortgang bijgehouden via GitHub. We hebben allemaal op eigen branches gewerkt en hebben met pull requests gewerkt. Wanneer iemand met de master wilde mergen, moest de code eerst gereviewed worden door een teamgenoot. Dit hebben we gedaan om te zorgen dat alles op de master werkte en de code consistent en begrijpelijk bleef. Doordat we een ReactJs website hebben gemaakt konden we hem niet zomaar op een server zetten. We hebben daarom Netlify gebruikt om de website te deployen. Wanneer er een pull request aangemaakt werd, werd er ook gelijk een controle uitgevoerd door Netlify. Op deze manier wisten we zeker dat het prototype altijd werkend online zou staan. Het prototype kan gevonden worden op prototype-social-warming.netlify.app",
+        },
       }
     ]
   }
