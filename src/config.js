@@ -88,7 +88,7 @@ export const progress = {
   video: {
     firstTitle: "dit is ons",
     secondTitle: "resultaat",
-    url: "https://www.youtube.com/embed/ZqEo4ROGF4g",
+    url: "https://www.youtube.com/embed/uDHFrnrzv-o?",
   },
   designTactics: {
     firstTitle: "Ontwerp",
